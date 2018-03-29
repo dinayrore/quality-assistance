@@ -1,0 +1,16 @@
+<div class="container">
+    <div class="col">
+        <div class="row">
+            <h3 class="text-left">Merge Variable Requirements</h3>
+            <% if current_page?(email_requirements_path) %>
+                <h4 class="text-left">Checked variables will be used to validate Email QA data:</h4>
+            <% else %>
+                <h4 class="text-left">Checked variables will be used to validate Direct Mail QA data:</h4>
+            <% end %>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="">
+                <label class="form-check-label" for="defaultCheck1"></label>
+            </div>
+        </div>
+    </div>
+</div>

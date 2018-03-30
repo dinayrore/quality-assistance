@@ -1,16 +1,27 @@
-<div class="container">
+<div class="container-center-page">
     <div class="col">
         <div class="row">
-            <h3 class="text-left">Merge Variable Requirements</h3>
+            <h1 class="text-center">Before we begin...</h1>
             <% if current_page?(email_requirements_path) %>
-                <h4 class="text-left">Checked variables will be used to validate Email QA data:</h4>
+                <h3 class="text-center">Please submit the title of the worksheet for this Email QA data:</h3>
             <% else %>
-                <h4 class="text-left">Checked variables will be used to validate Direct Mail QA data:</h4>
+                <h3 class="text-center">Please submit the title of the worksheet for this Direct Mail QA data:</h3>
             <% end %>
-            <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="">
-                <label class="form-check-label" for="defaultCheck1"></label>
+            <br>
+        <form>
+          <div class="form-row">
+            <div class="form-group col-md-4 col-md-offset-4">
+                <input class="form-control" id="tab-title" placeholder="Enter programming grid tab title here">
             </div>
+            <button type="submit" class="btn btn-primary mb-2">Next</button>
+
+          </div>
+
+
+            <br>
+            <br>
+
+        </form>
         </div>
     </div>
 </div>

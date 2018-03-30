@@ -1,8 +1,6 @@
 # Quality Assistance
 
-Quality Assistance is your personal assistant to automating manual QAs! This application does not utilize a database; therefore, all variables run through this application are NOT saved. First, you will be prompted to choose a QA type. Afterwards, you will need to specify QA requirements to generate only the data necessary to validate the content of your QA files. Finally, a report of your test results will be generated and you will be prompted to send your report to all necessary personal.
-
-Please visit the application hosted on Heroku:
+Quality Assistance is your personal assistant to automating manual QAs! Quality assistance is a series of scripts that will run based on user input and provided directories. Happy automating!
 
 ## Getting Started
 
@@ -31,12 +29,6 @@ Install ruby 2.4.1
   1. Close and reopen Terminal. `rbenv install 2.4.1`
   2. After quite some time, run: `rbenv global 2.4.1`
 
-Install Rails 5 - or latest version
-```
-gem install rails --version=5.0.0.1
-```
-Once you have completed the above installation processes your system should be ready to launch the program!
-
 ### Deployment
 
 Please complete the following procedure to run the program on a live system:
@@ -44,13 +36,7 @@ Please complete the following procedure to run the program on a live system:
   2. Change your directory to the one that which you would like to save this project. `$ cd folder_name`
   3. Then run the commands `$ git clone https://github.com/kteich88/quality-assistance.git` and `$ cd quality-assistance`
   4. Run `$ bundle install` to install needed gems located in the Gemfile.
-  7. Finally, run the test suite to verify that everything is working correctly: `$ rails test`
-
-### Running Web app locally
-
-  1. If the test suite passes, you'll be ready to run the app in a local server: `$ rails server`
-  2. You should see `Rails 5.0.0.1 application starting in development on http://localhost:3000` in your Terminal.
-  3. Go to localhost:3000 in your web browser to view the application homepage.
+  5. Type `$ ruby quality_assistance.rb` to run the program.
 
 ## Authors
 

@@ -1,0 +1,463 @@
+08:24:06.957 INFO - Selenium build info: version: '3.4.0', revision: 'unknown'
+08:24:06.958 INFO - Launching a standalone Selenium Server
+2018-03-28 08:24:07.010:INFO::main: Logging initialized @446ms to org.seleniumhq.jetty9.util.log.StdErrLog
+08:24:07.074 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+ registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform MAC
+08:24:07.074 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+ registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform MAC
+08:24:07.074 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+08:24:07.075 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
+Unable to create new instances on this machine.
+08:24:07.075 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+08:24:07.075 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+2018-03-28 08:24:07.145:INFO:osjs.Server:main: jetty-9.4.3.v20170317
+2018-03-28 08:24:07.182:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@3349e9bb{/,null,AVAILABLE}
+2018-03-28 08:24:07.241:INFO:osjs.AbstractConnector:main: Started ServerConnector@4116aac9{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
+2018-03-28 08:24:07.242:INFO:osjs.Server:main: Started @679ms
+08:24:07.242 INFO - Selenium Server is up and running
+08:24:07.676 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
+08:24:07.715 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, marionette=false, name=Google Test, browserName=safari, javascriptEnabled=true, platform=ANY}]])
+08:24:07.715 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, marionette=false, name=Google Test, browserName=firefox, javascriptEnabled=true, platform=ANY}]])
+08:24:07.715 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, marionette=false, name=Google Test, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+08:24:07.742 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, marionette=false, name=Google Test, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+08:24:07.743 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, marionette=false, name=Google Test, browserName=firefox, javascriptEnabled=true, platform=ANY}]
+08:24:07.743 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, marionette=false, name=Google Test, browserName=safari, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.34.522932 (4140ab217e1ca1bec0c4b4d1b148f3361eb3a03e) on port 16673
+Only local connections are allowed.
+1522239849129	addons.manager	DEBUG	Application has been upgraded
+1522239849313	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/XPIProvider.jsm: ["XPIProvider", "XPIInternal"]
+1522239849316	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/LightweightThemeManager.jsm: ["LightweightThemeManager"]
+1522239849342	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/GMPProvider.jsm
+1522239849344	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/PluginProvider.jsm
+1522239849344	addons.manager	DEBUG	Starting provider: XPIProvider
+1522239849345	addons.xpi	DEBUG	startup
+1522239849345	addons.xpi	INFO	SystemAddonInstallLocation directory is missing
+1522239849345	addons.xpi	INFO	Removing all system add-on upgrades.
+1522239849346	addons.xpi	DEBUG	Skipping unavailable install location app-system-share
+1522239849346	addons.xpi	DEBUG	checkForChanges
+1522239849347	addons.xpi	DEBUG	Loaded add-on state: ${}
+1522239849347	addons.xpi	INFO	Mapping fxdriver@googlecode.com to /var/folders/k9/7_dbn6lx0kl0w9333nrbwqt094x9nf/T/anonymous13545707215834112423webdriver-profile/extensions/fxdriver@googlecode.com
+1522239849347	addons.xpi	DEBUG	Ignoring file entry whose name is not a valid add-on ID: /var/folders/k9/7_dbn6lx0kl0w9333nrbwqt094x9nf/T/anonymous13545707215834112423webdriver-profile/extensions/webdriver-staging
+1522239849348	addons.xpi	DEBUG	New add-on fxdriver@googlecode.com in app-profile
+1522239849348	addons.xpi	INFO	Mapping fxdriver@googlecode.com to /var/folders/k9/7_dbn6lx0kl0w9333nrbwqt094x9nf/T/anonymous13545707215834112423webdriver-profile/extensions/fxdriver@googlecode.com
+1522239849349	addons.xpi	INFO	Mapping activity-stream@mozilla.org to /Applications/Firefox.app/Contents/Resources/browser/features/activity-stream@mozilla.org.xpi
+1522239849349	addons.xpi	INFO	Mapping aushelper@mozilla.org to /Applications/Firefox.app/Contents/Resources/browser/features/aushelper@mozilla.org.xpi
+1522239849349	addons.xpi	INFO	Mapping firefox@getpocket.com to /Applications/Firefox.app/Contents/Resources/browser/features/firefox@getpocket.com.xpi
+1522239849349	addons.xpi	INFO	Mapping followonsearch@mozilla.com to /Applications/Firefox.app/Contents/Resources/browser/features/followonsearch@mozilla.com.xpi
+1522239849350	addons.xpi	INFO	Mapping formautofill@mozilla.org to /Applications/Firefox.app/Contents/Resources/browser/features/formautofill@mozilla.org.xpi
+1522239849350	addons.xpi	INFO	Mapping onboarding@mozilla.org to /Applications/Firefox.app/Contents/Resources/browser/features/onboarding@mozilla.org.xpi
+1522239849350	addons.xpi	INFO	Mapping screenshots@mozilla.org to /Applications/Firefox.app/Contents/Resources/browser/features/screenshots@mozilla.org.xpi
+1522239849350	addons.xpi	INFO	Mapping shield-recipe-client@mozilla.org to /Applications/Firefox.app/Contents/Resources/browser/features/shield-recipe-client@mozilla.org.xpi
+1522239849350	addons.xpi	INFO	Mapping webcompat@mozilla.org to /Applications/Firefox.app/Contents/Resources/browser/features/webcompat@mozilla.org.xpi
+1522239849351	addons.xpi	DEBUG	New add-on activity-stream@mozilla.org in app-system-defaults
+1522239849351	addons.xpi	INFO	Mapping activity-stream@mozilla.org to /Applications/Firefox.app/Contents/Resources/browser/features/activity-stream@mozilla.org.xpi
+1522239849352	addons.xpi	DEBUG	New add-on aushelper@mozilla.org in app-system-defaults
+1522239849352	addons.xpi	INFO	Mapping aushelper@mozilla.org to /Applications/Firefox.app/Contents/Resources/browser/features/aushelper@mozilla.org.xpi
+1522239849352	addons.xpi	DEBUG	New add-on firefox@getpocket.com in app-system-defaults
+1522239849352	addons.xpi	INFO	Mapping firefox@getpocket.com to /Applications/Firefox.app/Contents/Resources/browser/features/firefox@getpocket.com.xpi
+1522239849353	addons.xpi	DEBUG	New add-on followonsearch@mozilla.com in app-system-defaults
+1522239849353	addons.xpi	INFO	Mapping followonsearch@mozilla.com to /Applications/Firefox.app/Contents/Resources/browser/features/followonsearch@mozilla.com.xpi
+1522239849353	addons.xpi	DEBUG	New add-on formautofill@mozilla.org in app-system-defaults
+1522239849353	addons.xpi	INFO	Mapping formautofill@mozilla.org to /Applications/Firefox.app/Contents/Resources/browser/features/formautofill@mozilla.org.xpi
+1522239849354	addons.xpi	DEBUG	New add-on onboarding@mozilla.org in app-system-defaults
+1522239849354	addons.xpi	INFO	Mapping onboarding@mozilla.org to /Applications/Firefox.app/Contents/Resources/browser/features/onboarding@mozilla.org.xpi
+1522239849354	addons.xpi	DEBUG	New add-on screenshots@mozilla.org in app-system-defaults
+1522239849354	addons.xpi	INFO	Mapping screenshots@mozilla.org to /Applications/Firefox.app/Contents/Resources/browser/features/screenshots@mozilla.org.xpi
+1522239849354	addons.xpi	DEBUG	New add-on shield-recipe-client@mozilla.org in app-system-defaults
+1522239849354	addons.xpi	INFO	Mapping shield-recipe-client@mozilla.org to /Applications/Firefox.app/Contents/Resources/browser/features/shield-recipe-client@mozilla.org.xpi
+1522239849355	addons.xpi	DEBUG	New add-on webcompat@mozilla.org in app-system-defaults
+1522239849355	addons.xpi	INFO	Mapping webcompat@mozilla.org to /Applications/Firefox.app/Contents/Resources/browser/features/webcompat@mozilla.org.xpi
+1522239849356	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to /Applications/Firefox.app/Contents/Resources/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi
+1522239849356	addons.xpi	DEBUG	New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} in app-global
+1522239849356	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to /Applications/Firefox.app/Contents/Resources/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi
+1522239849357	addons.xpi	DEBUG	getInstallState changed: true, state: {}
+1522239849357	addons.xpi	INFO	SystemAddonInstallLocation directory is missing
+1522239849364	addons.xpi-utils	DEBUG	Opening XPI database /var/folders/k9/7_dbn6lx0kl0w9333nrbwqt094x9nf/T/anonymous13545707215834112423webdriver-profile/extensions.json
+1522239849365	addons.xpi-utils	DEBUG	New add-on fxdriver@googlecode.com installed in app-profile
+*** Blocklist::_loadBlocklistFromFile: blocklist is disabled
+1522239849542	addons.xpi	WARN	Add-on fxdriver@googlecode.com is not correctly signed.
+1522239849542	addons.xpi	WARN	Add-on fxdriver@googlecode.com is not correctly signed.
+1522239849542	addons.xpi	WARN	Add-on fxdriver@googlecode.com is not correctly signed.
+1522239849545	addons.xpi-utils	DEBUG	New add-on activity-stream@mozilla.org installed in app-system-defaults
+1522239849565	addons.xpi-utils	DEBUG	New add-on aushelper@mozilla.org installed in app-system-defaults
+1522239849626	addons.xpi-utils	DEBUG	New add-on firefox@getpocket.com installed in app-system-defaults
+1522239849683	addons.xpi-utils	DEBUG	New add-on followonsearch@mozilla.com installed in app-system-defaults
+1522239849688	addons.xpi-utils	DEBUG	New add-on formautofill@mozilla.org installed in app-system-defaults
+1522239849692	addons.xpi-utils	DEBUG	New add-on onboarding@mozilla.org installed in app-system-defaults
+1522239849696	addons.xpi-utils	DEBUG	New add-on screenshots@mozilla.org installed in app-system-defaults
+1522239849701	addons.xpi-utils	DEBUG	New add-on shield-recipe-client@mozilla.org installed in app-system-defaults
+1522239849704	addons.xpi-utils	DEBUG	New add-on webcompat@mozilla.org installed in app-system-defaults
+1522239849707	addons.xpi-utils	DEBUG	New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} installed in app-global
+1522239849712	addons.manager	DEBUG	Registering startup change 'installed' for fxdriver@googlecode.com
+1522239849712	addons.xpi-utils	DEBUG	Make addon app-profile:fxdriver@googlecode.com visible
+1522239849712	addons.xpi	DEBUG	Updating XPIState for {"id":"fxdriver@googlecode.com","syncGUID":"{8b4a9323-e7b9-604a-9811-b358b40a6c6c}","location":"app-profile","version":"3.4.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Firefox WebDriver","description":"WebDriver implementation for Firefox","creator":"Simon Stewart","homepageURL":null},"visible":true,"active":false,"userDisabled":false,"appDisabled":true,"installDate":1522239848000,"updateDate":1522239848000,"applyBackgroundUpdates":1,"bootstrap":false,"path":"/var/folders/k9/7_dbn6lx0kl0w9333nrbwqt094x9nf/T/anonymous13545707215834112423webdriver-profile/extensions/fxdriver@googlecode.com","skinnable":false,"size":3303362,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":true,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"3.0","maxVersion":"48.0"}],"targetPlatforms":[{"os":"Darwin","abi":null},{"os":"SunOS","abi":null},{"os":"FreeBSD","abi":null},{"os":"OpenBSD","abi":null},{"os":"WINNT","abi":null},{"os":"Linux","abi":null}],"multiprocessCompatible":false,"signedState":0,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null,"startupData":null}
+1522239849714	addons.manager	DEBUG	Registering startup change 'installed' for activity-stream@mozilla.org
+1522239849723	addons.xpi	DEBUG	Loading bootstrap scope from /Applications/Firefox.app/Contents/Resources/browser/features/activity-stream@mozilla.org.xpi
+1522239849725	addons.xpi	DEBUG	Calling bootstrap method install on activity-stream@mozilla.org version 2018.01.04.0062-4997c81d
+1522239849725	addons.xpi-utils	DEBUG	Make addon app-system-defaults:activity-stream@mozilla.org visible
+1522239849725	addons.xpi	DEBUG	Updating XPIState for {"id":"activity-stream@mozilla.org","syncGUID":"{923facbe-88ed-a241-a87d-ef9f2820efac}","location":"app-system-defaults","version":"2018.01.04.0062-4997c81d","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Activity Stream","description":"A rich visual history feed and a reimagined home page make it easier than ever to find exactly what you're looking for in Firefox.","creator":null,"homepageURL":null},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1518802541000,"updateDate":1518802541000,"applyBackgroundUpdates":1,"bootstrap":true,"path":"/Applications/Firefox.app/Contents/Resources/browser/features/activity-stream@mozilla.org.xpi","skinnable":false,"size":2644084,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"58.0.2","maxVersion":"58.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null,"startupData":null}
+1522239849725	addons.manager	DEBUG	Registering startup change 'installed' for aushelper@mozilla.org
+1522239849726	addons.xpi	DEBUG	Loading bootstrap scope from /Applications/Firefox.app/Contents/Resources/browser/features/aushelper@mozilla.org.xpi
+1522239849727	addons.xpi	DEBUG	Calling bootstrap method install on aushelper@mozilla.org version 2.0
+1522239849727	addons.xpi-utils	DEBUG	Make addon app-system-defaults:aushelper@mozilla.org visible
+1522239849727	addons.xpi	DEBUG	Updating XPIState for {"id":"aushelper@mozilla.org","syncGUID":"{02d8dec5-a87f-4e46-ab11-eb24a6c3bbd5}","location":"app-system-defaults","version":"2.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Application Update Service Helper","description":"Sets value(s) in the update url based on custom checks.","creator":null,"homepageURL":null},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1518802541000,"updateDate":1518802541000,"applyBackgroundUpdates":1,"bootstrap":true,"path":"/Applications/Firefox.app/Contents/Resources/browser/features/aushelper@mozilla.org.xpi","skinnable":false,"size":8488,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"58.0.2","maxVersion":"58.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null,"startupData":null}
+1522239849728	addons.manager	DEBUG	Registering startup change 'installed' for firefox@getpocket.com
+1522239849728	addons.xpi	DEBUG	Loading bootstrap scope from /Applications/Firefox.app/Contents/Resources/browser/features/firefox@getpocket.com.xpi
+1522239849734	addons.xpi	DEBUG	Calling bootstrap method install on firefox@getpocket.com version 1.0.5
+1522239849734	addons.xpi-utils	DEBUG	Make addon app-system-defaults:firefox@getpocket.com visible
+1522239849734	addons.xpi	DEBUG	Updating XPIState for {"id":"firefox@getpocket.com","syncGUID":"{5afc0594-9d7d-064e-a93f-87bc5a3d8527}","location":"app-system-defaults","version":"1.0.5","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Pocket","description":"When you find something you want to view later, put it in Pocket.","creator":null,"homepageURL":null},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1518802541000,"updateDate":1518802541000,"applyBackgroundUpdates":1,"bootstrap":true,"path":"/Applications/Firefox.app/Contents/Resources/browser/features/firefox@getpocket.com.xpi","skinnable":false,"size":916248,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"58.0.2","maxVersion":"58.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null,"startupData":null}
+1522239849735	addons.manager	DEBUG	Registering startup change 'installed' for followonsearch@mozilla.com
+1522239849735	addons.xpi	DEBUG	Loading bootstrap scope from /Applications/Firefox.app/Contents/Resources/browser/features/followonsearch@mozilla.com.xpi
+1522239849736	addons.xpi	DEBUG	Calling bootstrap method install on followonsearch@mozilla.com version 0.9.6
+1522239849736	addons.xpi-utils	DEBUG	Make addon app-system-defaults:followonsearch@mozilla.com visible
+1522239849737	addons.xpi	DEBUG	Updating XPIState for {"id":"followonsearch@mozilla.com","syncGUID":"{d4c32c32-03dc-7349-8f2d-6a9e09508d87}","location":"app-system-defaults","version":"0.9.6","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Follow-on Search Telemetry","description":null,"creator":null,"homepageURL":null},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1515023688000,"updateDate":1515023688000,"applyBackgroundUpdates":1,"bootstrap":true,"path":"/Applications/Firefox.app/Contents/Resources/browser/features/followonsearch@mozilla.com.xpi","skinnable":false,"size":18625,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"52.0","maxVersion":"59.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null,"startupData":null}
+1522239849737	addons.manager	DEBUG	Registering startup change 'installed' for formautofill@mozilla.org
+1522239849737	addons.xpi	DEBUG	Loading bootstrap scope from /Applications/Firefox.app/Contents/Resources/browser/features/formautofill@mozilla.org.xpi
+1522239849738	addons.xpi	DEBUG	Calling bootstrap method install on formautofill@mozilla.org version 1.0
+1522239849738	addons.xpi-utils	DEBUG	Make addon app-system-defaults:formautofill@mozilla.org visible
+1522239849738	addons.xpi	DEBUG	Updating XPIState for {"id":"formautofill@mozilla.org","syncGUID":"{93b1daae-a0d7-de44-9ac5-e51fdd107a60}","location":"app-system-defaults","version":"1.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Form Autofill","description":"Autofill forms with saved profiles","creator":null,"homepageURL":null},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1518802541000,"updateDate":1518802541000,"applyBackgroundUpdates":1,"bootstrap":true,"path":"/Applications/Firefox.app/Contents/Resources/browser/features/formautofill@mozilla.org.xpi","skinnable":false,"size":418452,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"58.0.2","maxVersion":"58.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null,"startupData":null}
+1522239849739	addons.manager	DEBUG	Registering startup change 'installed' for onboarding@mozilla.org
+1522239849739	addons.xpi	DEBUG	Loading bootstrap scope from /Applications/Firefox.app/Contents/Resources/browser/features/onboarding@mozilla.org.xpi
+1522239849741	addons.xpi	DEBUG	Calling bootstrap method install on onboarding@mozilla.org version 1.0
+1522239849741	addons.xpi-utils	DEBUG	Make addon app-system-defaults:onboarding@mozilla.org visible
+1522239849741	addons.xpi	DEBUG	Updating XPIState for {"id":"onboarding@mozilla.org","syncGUID":"{3a303279-7b46-6446-9821-e2b7525e9a3c}","location":"app-system-defaults","version":"1.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Photon onboarding","description":"Photon onboarding","creator":null,"homepageURL":null},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1518802541000,"updateDate":1518802541000,"applyBackgroundUpdates":1,"bootstrap":true,"path":"/Applications/Firefox.app/Contents/Resources/browser/features/onboarding@mozilla.org.xpi","skinnable":false,"size":541753,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"58.0.2","maxVersion":"58.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null,"startupData":null}
+1522239849741	addons.manager	DEBUG	Registering startup change 'installed' for screenshots@mozilla.org
+1522239849742	addons.xpi	DEBUG	Loading bootstrap scope from /Applications/Firefox.app/Contents/Resources/browser/features/screenshots@mozilla.org.xpi
+1522239849744	addons.xpi	DEBUG	Calling bootstrap method install on screenshots@mozilla.org version 25.0.0
+1522239849744	addons.xpi-utils	DEBUG	Make addon app-system-defaults:screenshots@mozilla.org visible
+1522239849744	addons.xpi	DEBUG	Updating XPIState for {"id":"screenshots@mozilla.org","syncGUID":"{9ed01947-450d-3b40-aeb7-96048b11664a}","location":"app-system-defaults","version":"25.0.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Firefox Screenshots","description":null,"creator":null,"homepageURL":"https://screenshots.firefox.com/"},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1518802541000,"updateDate":1518802541000,"applyBackgroundUpdates":1,"bootstrap":true,"path":"/Applications/Firefox.app/Contents/Resources/browser/features/screenshots@mozilla.org.xpi","skinnable":false,"size":994512,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"57.0a1","maxVersion":"*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null,"startupData":null}
+1522239849744	addons.manager	DEBUG	Registering startup change 'installed' for shield-recipe-client@mozilla.org
+1522239849744	addons.xpi	DEBUG	Loading bootstrap scope from /Applications/Firefox.app/Contents/Resources/browser/features/shield-recipe-client@mozilla.org.xpi
+1522239849749	addons.xpi	DEBUG	Calling bootstrap method install on shield-recipe-client@mozilla.org version 76.1
+1522239849749	addons.xpi-utils	DEBUG	Make addon app-system-defaults:shield-recipe-client@mozilla.org visible
+1522239849751	addons.xpi	DEBUG	Updating XPIState for {"id":"shield-recipe-client@mozilla.org","syncGUID":"{57c4a30f-c48d-6243-ac41-95f7a261a2a7}","location":"app-system-defaults","version":"76.1","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Shield Recipe Client","description":"Client to download and run recipes for SHIELD, Heartbeat, etc.","creator":null,"homepageURL":null},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1518802541000,"updateDate":1518802541000,"applyBackgroundUpdates":1,"bootstrap":true,"path":"/Applications/Firefox.app/Contents/Resources/browser/features/shield-recipe-client@mozilla.org.xpi","skinnable":false,"size":364001,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"58.0.2","maxVersion":"58.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null,"startupData":null}
+1522239849752	addons.manager	DEBUG	Registering startup change 'installed' for webcompat@mozilla.org
+1522239849754	addons.xpi	DEBUG	Loading bootstrap scope from /Applications/Firefox.app/Contents/Resources/browser/features/webcompat@mozilla.org.xpi
+1522239849758	addons.xpi	DEBUG	Calling bootstrap method install on webcompat@mozilla.org version 1.1
+1522239849758	addons.xpi-utils	DEBUG	Make addon app-system-defaults:webcompat@mozilla.org visible
+1522239849758	addons.xpi	DEBUG	Updating XPIState for {"id":"webcompat@mozilla.org","syncGUID":"{cb72b3a7-962c-f24c-9fef-45091096dd90}","location":"app-system-defaults","version":"1.1","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Web Compat","description":"Urgent post-release fixes for web compatibility.","creator":null,"homepageURL":null},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1518802541000,"updateDate":1518802541000,"applyBackgroundUpdates":1,"bootstrap":true,"path":"/Applications/Firefox.app/Contents/Resources/browser/features/webcompat@mozilla.org.xpi","skinnable":false,"size":9268,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"58.0.2","maxVersion":"58.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null,"startupData":null}
+1522239849759	addons.xpi-utils	DEBUG	Make addon app-global:{972ce4c6-7e08-4474-a285-3208198ce6fd} visible
+1522239849760	addons.xpi	DEBUG	Updating XPIState for {"id":"{972ce4c6-7e08-4474-a285-3208198ce6fd}","syncGUID":"{30fa0601-36ea-6c43-8f9e-4031c651b03d}","location":"app-global","version":"58.0.2","type":"theme","internalName":"classic/1.0","updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"optionsBrowserStyle":null,"aboutURL":null,"defaultLocale":{"name":"Default","description":"The default theme.","creator":"Mozilla","homepageURL":null,"contributors":["Mozilla Contributors"]},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1518802541000,"updateDate":1518802541000,"applyBackgroundUpdates":1,"path":"/Applications/Firefox.app/Contents/Resources/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi","skinnable":true,"size":1903,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"58.0.2","maxVersion":"58.0.2"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"userPermissions":null,"icons":{},"iconURL":"chrome://browser/content/default-theme-icon.svg","icon64URL":null,"blocklistState":0,"blocklistURL":null,"startupData":null}
+1522239849760	addons.xpi	DEBUG	Updating XPIState for {"id":"fxdriver@googlecode.com","syncGUID":"{8b4a9323-e7b9-604a-9811-b358b40a6c6c}","location":"app-profile","version":"3.4.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Firefox WebDriver","description":"WebDriver implementation for Firefox","creator":"Simon Stewart","homepageURL":null},"visible":true,"active":false,"userDisabled":false,"appDisabled":true,"installDate":1522239848000,"updateDate":1522239848000,"applyBackgroundUpdates":1,"bootstrap":false,"path":"/var/folders/k9/7_dbn6lx0kl0w9333nrbwqt094x9nf/T/anonymous13545707215834112423webdriver-profile/extensions/fxdriver@googlecode.com","skinnable":false,"size":3303362,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":true,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"3.0","maxVersion":"48.0"}],"targetPlatforms":[{"os":"Darwin","abi":null},{"os":"SunOS","abi":null},{"os":"FreeBSD","abi":null},{"os":"OpenBSD","abi":null},{"os":"WINNT","abi":null},{"os":"Linux","abi":null}],"multiprocessCompatible":false,"signedState":0,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null,"startupData":null}
+1522239849760	addons.xpi	DEBUG	Updating XPIState for {"id":"activity-stream@mozilla.org","syncGUID":"{923facbe-88ed-a241-a87d-ef9f2820efac}","location":"app-system-defaults","version":"2018.01.04.0062-4997c81d","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Activity Stream","description":"A rich visual history feed and a reimagined home page make it easier than ever to find exactly what you're looking for in Firefox.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1518802541000,"updateDate":1518802541000,"applyBackgroundUpdates":1,"bootstrap":true,"path":"/Applications/Firefox.app/Contents/Resources/browser/features/activity-stream@mozilla.org.xpi","skinnable":false,"size":2644084,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"58.0.2","maxVersion":"58.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null,"startupData":null}
+1522239849760	addons.xpi	DEBUG	Updating XPIState for {"id":"aushelper@mozilla.org","syncGUID":"{02d8dec5-a87f-4e46-ab11-eb24a6c3bbd5}","location":"app-system-defaults","version":"2.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Application Update Service Helper","description":"Sets value(s) in the update url based on custom checks.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1518802541000,"updateDate":1518802541000,"applyBackgroundUpdates":1,"bootstrap":true,"path":"/Applications/Firefox.app/Contents/Resources/browser/features/aushelper@mozilla.org.xpi","skinnable":false,"size":8488,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"58.0.2","maxVersion":"58.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null,"startupData":null}
+1522239849808	addons.xpi	DEBUG	Updating XPIState for {"id":"firefox@getpocket.com","syncGUID":"{5afc0594-9d7d-064e-a93f-87bc5a3d8527}","location":"app-system-defaults","version":"1.0.5","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Pocket","description":"When you find something you want to view later, put it in Pocket.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1518802541000,"updateDate":1518802541000,"applyBackgroundUpdates":1,"bootstrap":true,"path":"/Applications/Firefox.app/Contents/Resources/browser/features/firefox@getpocket.com.xpi","skinnable":false,"size":916248,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"58.0.2","maxVersion":"58.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null,"startupData":null}
+1522239849809	addons.xpi	DEBUG	Updating XPIState for {"id":"followonsearch@mozilla.com","syncGUID":"{d4c32c32-03dc-7349-8f2d-6a9e09508d87}","location":"app-system-defaults","version":"0.9.6","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Follow-on Search Telemetry","description":null,"creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1515023688000,"updateDate":1515023688000,"applyBackgroundUpdates":1,"bootstrap":true,"path":"/Applications/Firefox.app/Contents/Resources/browser/features/followonsearch@mozilla.com.xpi","skinnable":false,"size":18625,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"52.0","maxVersion":"59.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null,"startupData":null}
+1522239849809	addons.xpi	DEBUG	Updating XPIState for {"id":"formautofill@mozilla.org","syncGUID":"{93b1daae-a0d7-de44-9ac5-e51fdd107a60}","location":"app-system-defaults","version":"1.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Form Autofill","description":"Autofill forms with saved profiles","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1518802541000,"updateDate":1518802541000,"applyBackgroundUpdates":1,"bootstrap":true,"path":"/Applications/Firefox.app/Contents/Resources/browser/features/formautofill@mozilla.org.xpi","skinnable":false,"size":418452,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"58.0.2","maxVersion":"58.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null,"startupData":null}
+1522239849809	addons.xpi	DEBUG	Updating XPIState for {"id":"onboarding@mozilla.org","syncGUID":"{3a303279-7b46-6446-9821-e2b7525e9a3c}","location":"app-system-defaults","version":"1.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Photon onboarding","description":"Photon onboarding","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1518802541000,"updateDate":1518802541000,"applyBackgroundUpdates":1,"bootstrap":true,"path":"/Applications/Firefox.app/Contents/Resources/browser/features/onboarding@mozilla.org.xpi","skinnable":false,"size":541753,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"58.0.2","maxVersion":"58.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null,"startupData":null}
+1522239849809	addons.xpi	DEBUG	Updating XPIState for {"id":"screenshots@mozilla.org","syncGUID":"{9ed01947-450d-3b40-aeb7-96048b11664a}","location":"app-system-defaults","version":"25.0.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Firefox Screenshots","description":null,"creator":null,"homepageURL":"https://screenshots.firefox.com/"},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1518802541000,"updateDate":1518802541000,"applyBackgroundUpdates":1,"bootstrap":true,"path":"/Applications/Firefox.app/Contents/Resources/browser/features/screenshots@mozilla.org.xpi","skinnable":false,"size":994512,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"57.0a1","maxVersion":"*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null,"startupData":null}
+1522239849809	addons.xpi	DEBUG	Updating XPIState for {"id":"shield-recipe-client@mozilla.org","syncGUID":"{57c4a30f-c48d-6243-ac41-95f7a261a2a7}","location":"app-system-defaults","version":"76.1","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Shield Recipe Client","description":"Client to download and run recipes for SHIELD, Heartbeat, etc.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1518802541000,"updateDate":1518802541000,"applyBackgroundUpdates":1,"bootstrap":true,"path":"/Applications/Firefox.app/Contents/Resources/browser/features/shield-recipe-client@mozilla.org.xpi","skinnable":false,"size":364001,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"58.0.2","maxVersion":"58.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null,"startupData":null}
+1522239849809	addons.xpi	DEBUG	Updating XPIState for {"id":"webcompat@mozilla.org","syncGUID":"{cb72b3a7-962c-f24c-9fef-45091096dd90}","location":"app-system-defaults","version":"1.1","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Web Compat","description":"Urgent post-release fixes for web compatibility.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1518802541000,"updateDate":1518802541000,"applyBackgroundUpdates":1,"bootstrap":true,"path":"/Applications/Firefox.app/Contents/Resources/browser/features/webcompat@mozilla.org.xpi","skinnable":false,"size":9268,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"58.0.2","maxVersion":"58.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null,"startupData":null}
+1522239849810	addons.xpi	DEBUG	Updating XPIState for {"id":"{972ce4c6-7e08-4474-a285-3208198ce6fd}","syncGUID":"{30fa0601-36ea-6c43-8f9e-4031c651b03d}","location":"app-global","version":"58.0.2","type":"theme","internalName":"classic/1.0","updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"optionsBrowserStyle":null,"aboutURL":null,"defaultLocale":{"name":"Default","description":"The default theme.","creator":"Mozilla","homepageURL":null,"contributors":["Mozilla Contributors"]},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1518802541000,"updateDate":1518802541000,"applyBackgroundUpdates":1,"path":"/Applications/Firefox.app/Contents/Resources/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi","skinnable":true,"size":1903,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"58.0.2","maxVersion":"58.0.2"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"userPermissions":null,"icons":{},"iconURL":"chrome://browser/content/default-theme-icon.svg","icon64URL":null,"blocklistState":0,"blocklistURL":null,"startupData":null}
+1522239849810	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1522239849810	addons.xpi-utils	DEBUG	Updating add-on states
+1522239849814	addons.xpi	DEBUG	Registering manifest for /Applications/Firefox.app/Contents/Resources/browser/features/activity-stream@mozilla.org.xpi
+1522239849814	addons.xpi	DEBUG	Calling bootstrap method startup on activity-stream@mozilla.org version 2018.01.04.0062-4997c81d
+1522239849816	addons.xpi	DEBUG	Registering manifest for /Applications/Firefox.app/Contents/Resources/browser/features/aushelper@mozilla.org.xpi
+1522239849816	addons.xpi	DEBUG	Calling bootstrap method startup on aushelper@mozilla.org version 2.0
+1522239849821	addons.xpi	DEBUG	Registering manifest for /Applications/Firefox.app/Contents/Resources/browser/features/firefox@getpocket.com.xpi
+1522239849821	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.5
+1522239849834	addons.xpi	DEBUG	Registering manifest for /Applications/Firefox.app/Contents/Resources/browser/features/followonsearch@mozilla.com.xpi
+1522239849834	addons.xpi	DEBUG	Calling bootstrap method startup on followonsearch@mozilla.com version 0.9.6
+1522239849834	addons.xpi	DEBUG	Registering manifest for /Applications/Firefox.app/Contents/Resources/browser/features/formautofill@mozilla.org.xpi
+1522239849835	addons.xpi	DEBUG	Calling bootstrap method startup on formautofill@mozilla.org version 1.0
+1522239849835	addons.xpi	DEBUG	Registering manifest for /Applications/Firefox.app/Contents/Resources/browser/features/onboarding@mozilla.org.xpi
+1522239849835	addons.xpi	DEBUG	Calling bootstrap method startup on onboarding@mozilla.org version 1.0
+1522239849836	addons.xpi	DEBUG	Registering manifest for /Applications/Firefox.app/Contents/Resources/browser/features/screenshots@mozilla.org.xpi
+1522239849836	addons.xpi	DEBUG	Calling bootstrap method startup on screenshots@mozilla.org version 25.0.0
+1522239849836	addons.xpi	DEBUG	Registering manifest for /Applications/Firefox.app/Contents/Resources/browser/features/shield-recipe-client@mozilla.org.xpi
+1522239849837	addons.xpi	DEBUG	Calling bootstrap method startup on shield-recipe-client@mozilla.org version 76.1
+1522239849843	addons.xpi	DEBUG	Registering manifest for /Applications/Firefox.app/Contents/Resources/browser/features/webcompat@mozilla.org.xpi
+1522239849843	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 1.1
+1522239849846	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1522239849847	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1522239849847	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1522239849847	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1522239849847	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1522239849848	addons.manager	DEBUG	Starting provider: GMPProvider
+1522239849851	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1522239849852	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1522239849852	addons.manager	DEBUG	Starting provider: PluginProvider
+1522239849852	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1522239849852	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1522239849852	addons.manager	DEBUG	Completed startup sequence
+08:24:10.114 WARN - Exception thrown
+java.util.concurrent.ExecutionException: org.openqa.selenium.WebDriverException: java.lang.reflect.InvocationTargetException
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'w-rl-ml-kteichm', ip: 'fe80:0:0:0:1850:1f6f:71cd:1b21%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '9.0.1'
+Driver info: driver.version: unknown
+	at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+	at org.openqa.selenium.remote.server.DefaultSession.execute(DefaultSession.java:183)
+	at org.openqa.selenium.remote.server.DefaultSession.<init>(DefaultSession.java:119)
+	at org.openqa.selenium.remote.server.DefaultSession.createSession(DefaultSession.java:95)
+	at org.openqa.selenium.remote.server.DefaultDriverSessions.newSession(DefaultDriverSessions.java:131)
+	at org.openqa.selenium.remote.server.handler.NewSession.handle(NewSession.java:59)
+	at org.openqa.selenium.remote.server.handler.NewSession.handle(NewSession.java:36)
+	at org.openqa.selenium.remote.server.rest.ResultConfig.handle(ResultConfig.java:111)
+	at org.openqa.selenium.remote.server.JsonHttpCommandHandler.handleRequest(JsonHttpCommandHandler.java:190)
+	at org.openqa.selenium.remote.server.DriverServlet.handleRequest(DriverServlet.java:222)
+	at org.openqa.selenium.remote.server.DriverServlet.doPost(DriverServlet.java:184)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at org.openqa.selenium.remote.server.DriverServlet.service(DriverServlet.java:150)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.seleniumhq.jetty9.servlet.ServletHolder.handle(ServletHolder.java:841)
+	at org.seleniumhq.jetty9.servlet.ServletHandler.doHandle(ServletHandler.java:543)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188)
+	at org.seleniumhq.jetty9.server.handler.ContextHandler.doHandle(ContextHandler.java:1228)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:168)
+	at org.seleniumhq.jetty9.servlet.ServletHandler.doScope(ServletHandler.java:481)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:166)
+	at org.seleniumhq.jetty9.server.handler.ContextHandler.doScope(ContextHandler.java:1130)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.seleniumhq.jetty9.server.Server.handle(Server.java:564)
+	at org.seleniumhq.jetty9.server.HttpChannel.handle(HttpChannel.java:320)
+	at org.seleniumhq.jetty9.server.HttpConnection.onFillable(HttpConnection.java:251)
+	at org.seleniumhq.jetty9.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:279)
+	at org.seleniumhq.jetty9.io.FillInterest.fillable(FillInterest.java:112)
+	at org.seleniumhq.jetty9.io.ChannelEndPoint$2.run(ChannelEndPoint.java:124)
+	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:672)
+	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:590)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+Caused by: org.openqa.selenium.WebDriverException: java.lang.reflect.InvocationTargetException
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'w-rl-ml-kteichm', ip: 'fe80:0:0:0:1850:1f6f:71cd:1b21%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '9.0.1'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.remote.server.DefaultDriverProvider.callConstructor(DefaultDriverProvider.java:110)
+	at org.openqa.selenium.remote.server.DefaultDriverProvider.newInstance(DefaultDriverProvider.java:96)
+	at org.openqa.selenium.remote.server.DefaultDriverFactory.newInstance(DefaultDriverFactory.java:60)
+	at org.openqa.selenium.remote.server.DefaultSession$BrowserCreator.call(DefaultSession.java:222)
+	at org.openqa.selenium.remote.server.DefaultSession$BrowserCreator.call(DefaultSession.java:209)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	... 1 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
+	at org.openqa.selenium.remote.server.DefaultDriverProvider.callConstructor(DefaultDriverProvider.java:102)
+	... 9 more
+Caused by: org.openqa.selenium.SessionNotCreatedException: Could not create a session: You must enable the 'Allow Remote Automation' option in Safari's Develop menu to control Safari via WebDriver. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.56 seconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'w-rl-ml-kteichm', ip: 'fe80:0:0:0:1850:1f6f:71cd:1b21%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '9.0.1'
+Driver info: driver.version: SafariDriver
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$new$0(JsonWireProtocolResponse.java:53)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$getResponseFunction$2(JsonWireProtocolResponse.java:91)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$22(ProtocolHandshake.java:365)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:476)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:368)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:159)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:250)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:137)
+	at org.openqa.selenium.safari.SafariDriver.<init>(SafariDriver.java:60)
+	at org.openqa.selenium.safari.SafariDriver.<init>(SafariDriver.java:51)
+	... 14 more
+08:24:10.124 WARN - Exception: Could not create a session: You must enable the 'Allow Remote Automation' option in Safari's Develop menu to control Safari via WebDriver. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.56 seconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'w-rl-ml-kteichm', ip: 'fe80:0:0:0:1850:1f6f:71cd:1b21%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '9.0.1'
+Driver info: driver.version: SafariDriver
+08:24:10.694 INFO - Detected dialect: OSS
+08:24:10.751 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, marionette=false, name=Google Test, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+08:24:10.786 INFO - Executing: [get: http://www.google.com])
+2018-03-28 08:24:11.619 plugin-container[90427:5938900] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8e33, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1522239851846	addons.repository	DEBUG	No addons.json found.
+1522239851894	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1522239851894	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1522239851894	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1522239851959	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 23
+1522239852344	addons.xpi	INFO	Mapping fxdriver@googlecode.com to /var/folders/k9/7_dbn6lx0kl0w9333nrbwqt094x9nf/T/anonymous13545707215834112423webdriver-profile/extensions/fxdriver@googlecode.com
+1522239852344	addons.xpi	DEBUG	Ignoring file entry whose name is not a valid add-on ID: /var/folders/k9/7_dbn6lx0kl0w9333nrbwqt094x9nf/T/anonymous13545707215834112423webdriver-profile/extensions/webdriver-staging
+1522239852345	addons.xpi	DEBUG	Existing add-on fxdriver@googlecode.com in app-profile
+1522239852345	addons.xpi	INFO	Mapping activity-stream@mozilla.org to /Applications/Firefox.app/Contents/Resources/browser/features/activity-stream@mozilla.org.xpi
+1522239852345	addons.xpi	INFO	Mapping aushelper@mozilla.org to /Applications/Firefox.app/Contents/Resources/browser/features/aushelper@mozilla.org.xpi
+1522239852346	addons.xpi	INFO	Mapping firefox@getpocket.com to /Applications/Firefox.app/Contents/Resources/browser/features/firefox@getpocket.com.xpi
+1522239852346	addons.xpi	INFO	Mapping followonsearch@mozilla.com to /Applications/Firefox.app/Contents/Resources/browser/features/followonsearch@mozilla.com.xpi
+1522239852346	addons.xpi	INFO	Mapping formautofill@mozilla.org to /Applications/Firefox.app/Contents/Resources/browser/features/formautofill@mozilla.org.xpi
+1522239852346	addons.xpi	INFO	Mapping onboarding@mozilla.org to /Applications/Firefox.app/Contents/Resources/browser/features/onboarding@mozilla.org.xpi
+1522239852346	addons.xpi	INFO	Mapping screenshots@mozilla.org to /Applications/Firefox.app/Contents/Resources/browser/features/screenshots@mozilla.org.xpi
+1522239852346	addons.xpi	INFO	Mapping shield-recipe-client@mozilla.org to /Applications/Firefox.app/Contents/Resources/browser/features/shield-recipe-client@mozilla.org.xpi
+1522239852346	addons.xpi	INFO	Mapping webcompat@mozilla.org to /Applications/Firefox.app/Contents/Resources/browser/features/webcompat@mozilla.org.xpi
+1522239852347	addons.xpi	DEBUG	Existing add-on activity-stream@mozilla.org in app-system-defaults
+1522239852347	addons.xpi	DEBUG	Existing add-on aushelper@mozilla.org in app-system-defaults
+1522239852347	addons.xpi	DEBUG	Existing add-on firefox@getpocket.com in app-system-defaults
+1522239852347	addons.xpi	DEBUG	Existing add-on followonsearch@mozilla.com in app-system-defaults
+1522239852347	addons.xpi	DEBUG	Existing add-on formautofill@mozilla.org in app-system-defaults
+1522239852348	addons.xpi	DEBUG	Existing add-on onboarding@mozilla.org in app-system-defaults
+1522239852348	addons.xpi	DEBUG	Existing add-on screenshots@mozilla.org in app-system-defaults
+1522239852348	addons.xpi	DEBUG	Existing add-on shield-recipe-client@mozilla.org in app-system-defaults
+1522239852348	addons.xpi	DEBUG	Existing add-on webcompat@mozilla.org in app-system-defaults
+1522239852349	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to /Applications/Firefox.app/Contents/Resources/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi
+1522239852349	addons.xpi	DEBUG	Existing add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} in app-global
+1522239852349	addons.xpi	DEBUG	getInstallState changed: false, state: {}
+2018-03-28 08:24:12.439 plugin-container[90429:5939148] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x883f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+08:24:12.484 INFO - Done: [get: http://www.google.com]
+08:24:12.501 INFO - Executing: [find elements: By.cssSelector: body])
+08:24:12.557 INFO - Done: [find elements: By.cssSelector: body]
+08:24:12.574 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (449cdaefae3092e02ebcb521c8acc196)] -> css selector: body]])
+08:24:12.876 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (449cdaefae3092e02ebcb521c8acc196)] -> css selector: body]]
+08:24:12.892 INFO - Executing: [find element: By.cssSelector: input[type=text]])
+08:24:12.974 INFO - Done: [find element: By.cssSelector: input[type=text]]
+08:24:12.990 INFO - Executing: [send keys: 1 [[ChromeDriver: chrome on MAC (449cdaefae3092e02ebcb521c8acc196)] -> css selector: input[type=text]], [n, i, g, h, t, w, a, t, c, h]])
+08:24:14.426 WARN - Exception thrown
+org.openqa.selenium.WebDriverException: unknown error: call function result missing 'value'
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.34.522932 (4140ab217e1ca1bec0c4b4d1b148f3361eb3a03e),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 183 milliseconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'w-rl-ml-kteichm', ip: 'fe80:0:0:0:1850:1f6f:71cd:1b21%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '9.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.34.522932 (4140ab217e1ca1bec0c4b4d1b148f3361eb3a03e), userDataDir=/var/folders/k9/7_dbn6lx0kl0w9333nrbwqt094x9nf/T/.org.chromium.Chromium.y9Ndgj}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=65.0.3325.181, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 449cdaefae3092e02ebcb521c8acc196
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:272)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:96)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:332)
+	at com.sun.proxy.$Proxy6.sendKeys(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:355)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.openqa.selenium.remote.server.KnownElements$1.invoke(KnownElements.java:64)
+	at com.sun.proxy.$Proxy7.sendKeys(Unknown Source)
+	at org.openqa.selenium.remote.server.handler.SendKeys.call(SendKeys.java:50)
+	at org.openqa.selenium.remote.server.handler.SendKeys.call(SendKeys.java:29)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+08:24:14.427 WARN - Exception: unknown error: call function result missing 'value'
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.34.522932 (4140ab217e1ca1bec0c4b4d1b148f3361eb3a03e),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 183 milliseconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'w-rl-ml-kteichm', ip: 'fe80:0:0:0:1850:1f6f:71cd:1b21%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '9.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.34.522932 (4140ab217e1ca1bec0c4b4d1b148f3361eb3a03e), userDataDir=/var/folders/k9/7_dbn6lx0kl0w9333nrbwqt094x9nf/T/.org.chromium.Chromium.y9Ndgj}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=65.0.3325.181, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 449cdaefae3092e02ebcb521c8acc196
+08:24:14.528 INFO - Executing: [find elements: By.cssSelector: button[name=btnG]])
+08:24:14.559 INFO - Done: [find elements: By.cssSelector: button[name=btnG]]
+08:24:14.567 INFO - Executing: [is displayed: 2 [[ChromeDriver: chrome on MAC (449cdaefae3092e02ebcb521c8acc196)] -> css selector: button[name=btnG]]])
+08:24:14.582 INFO - Done: [is displayed: 2 [[ChromeDriver: chrome on MAC (449cdaefae3092e02ebcb521c8acc196)] -> css selector: button[name=btnG]]]
+08:24:15.087 INFO - Executing: [is displayed: 2 [[ChromeDriver: chrome on MAC (449cdaefae3092e02ebcb521c8acc196)] -> css selector: button[name=btnG]]])
+08:24:15.096 INFO - Done: [is displayed: 2 [[ChromeDriver: chrome on MAC (449cdaefae3092e02ebcb521c8acc196)] -> css selector: button[name=btnG]]]
+08:24:15.605 INFO - Executing: [is displayed: 2 [[ChromeDriver: chrome on MAC (449cdaefae3092e02ebcb521c8acc196)] -> css selector: button[name=btnG]]])
+08:24:15.613 INFO - Done: [is displayed: 2 [[ChromeDriver: chrome on MAC (449cdaefae3092e02ebcb521c8acc196)] -> css selector: button[name=btnG]]]
+08:24:15.623 INFO - Executing: [delete session: e637e7ab-20ad-4e89-ad7b-2f4185948798])
+08:24:15.698 INFO - Done: [delete session: e637e7ab-20ad-4e89-ad7b-2f4185948798]
+08:24:28.566 WARN - Exception thrown
+java.util.concurrent.ExecutionException: org.openqa.selenium.WebDriverException: java.lang.reflect.InvocationTargetException
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'w-rl-ml-kteichm', ip: 'fe80:0:0:0:1850:1f6f:71cd:1b21%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '9.0.1'
+Driver info: driver.version: unknown
+	at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+	at org.openqa.selenium.remote.server.DefaultSession.execute(DefaultSession.java:183)
+	at org.openqa.selenium.remote.server.DefaultSession.<init>(DefaultSession.java:119)
+	at org.openqa.selenium.remote.server.DefaultSession.createSession(DefaultSession.java:95)
+	at org.openqa.selenium.remote.server.DefaultDriverSessions.newSession(DefaultDriverSessions.java:131)
+	at org.openqa.selenium.remote.server.handler.NewSession.handle(NewSession.java:59)
+	at org.openqa.selenium.remote.server.handler.NewSession.handle(NewSession.java:36)
+	at org.openqa.selenium.remote.server.rest.ResultConfig.handle(ResultConfig.java:111)
+	at org.openqa.selenium.remote.server.JsonHttpCommandHandler.handleRequest(JsonHttpCommandHandler.java:190)
+	at org.openqa.selenium.remote.server.DriverServlet.handleRequest(DriverServlet.java:222)
+	at org.openqa.selenium.remote.server.DriverServlet.doPost(DriverServlet.java:184)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at org.openqa.selenium.remote.server.DriverServlet.service(DriverServlet.java:150)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.seleniumhq.jetty9.servlet.ServletHolder.handle(ServletHolder.java:841)
+	at org.seleniumhq.jetty9.servlet.ServletHandler.doHandle(ServletHandler.java:543)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188)
+	at org.seleniumhq.jetty9.server.handler.ContextHandler.doHandle(ContextHandler.java:1228)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:168)
+	at org.seleniumhq.jetty9.servlet.ServletHandler.doScope(ServletHandler.java:481)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:166)
+	at org.seleniumhq.jetty9.server.handler.ContextHandler.doScope(ContextHandler.java:1130)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.seleniumhq.jetty9.server.Server.handle(Server.java:564)
+	at org.seleniumhq.jetty9.server.HttpChannel.handle(HttpChannel.java:320)
+	at org.seleniumhq.jetty9.server.HttpConnection.onFillable(HttpConnection.java:251)
+	at org.seleniumhq.jetty9.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:279)
+	at org.seleniumhq.jetty9.io.FillInterest.fillable(FillInterest.java:112)
+	at org.seleniumhq.jetty9.io.ChannelEndPoint$2.run(ChannelEndPoint.java:124)
+	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:672)
+	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:590)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+Caused by: org.openqa.selenium.WebDriverException: java.lang.reflect.InvocationTargetException
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'w-rl-ml-kteichm', ip: 'fe80:0:0:0:1850:1f6f:71cd:1b21%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '9.0.1'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.remote.server.FirefoxDriverProvider.callConstructor(FirefoxDriverProvider.java:89)
+	at org.openqa.selenium.remote.server.FirefoxDriverProvider.newInstance(FirefoxDriverProvider.java:63)
+	at org.openqa.selenium.remote.server.DefaultDriverFactory.newInstance(DefaultDriverFactory.java:60)
+	at org.openqa.selenium.remote.server.DefaultSession$BrowserCreator.call(DefaultSession.java:222)
+	at org.openqa.selenium.remote.server.DefaultSession$BrowserCreator.call(DefaultSession.java:209)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	... 1 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
+	at org.openqa.selenium.remote.server.FirefoxDriverProvider.callConstructor(FirefoxDriverProvider.java:81)
+	... 9 more
+Caused by: org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'w-rl-ml-kteichm', ip: 'fe80:0:0:0:1850:1f6f:71cd:1b21%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '9.0.1'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:250)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:137)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:191)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:108)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:137)
+	... 14 more
+Caused by: java.lang.NullPointerException
+	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:192)
+	at org.openqa.selenium.firefox.XpiDriverService.start(XpiDriverService.java:94)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:78)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	... 20 more
+08:24:28.568 WARN - Exception: null

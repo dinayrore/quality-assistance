@@ -1,5 +1,5 @@
 class PagesController < ApplicationController
-  def requirements
+  def validation
     programming_grid = PG.new
   end
 end

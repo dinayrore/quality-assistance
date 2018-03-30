@@ -1,6 +1,6 @@
 # Quality Assistance
 
-Quality Assistance is your personal assistant to automating manual QAs! Quality assistance is a series of scripts that will run based on user input and provided directories. Happy automating!
+Quality Assistance is your personal assistant to automating QAs! Quality assistance is a series of scripts that can be run based on user input and provided directories. Happy automating! 😃
 
 ## Getting Started
 

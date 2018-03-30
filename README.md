@@ -6,7 +6,7 @@ Please visit the application hosted on Heroku:
 
 ## Getting Started
 
-The instructions below will help you retrieve a copy of the project to run on your local machine through the Terminal application. Please see deployment for notes on how to deploy the project on a live system.  The instructions provided are for macbook users only.
+The instructions below will help you retrieve a copy of the project to run on your local machine through the Terminal application. Please see deployment for notes on how to deploy the project on a live system.  The instructions provided are for Mac users only.
 
 ### Prerequisites
 
@@ -55,3 +55,7 @@ Please complete the following procedure to run the program on a live system:
 ## Authors
 
 * **Kristine Teichmann**
+
+## Acknowledgements
+
+* Alyssa Pratt

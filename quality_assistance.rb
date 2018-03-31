@@ -1,5 +1,5 @@
 # main file to run through QA options
-require_relative 'qa'
+require_relative 'QA'
 
 def main
   options = QA.parse(ARGV)

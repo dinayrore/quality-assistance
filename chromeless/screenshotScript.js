@@ -7,11 +7,11 @@ let url = 'https://kteich88.github.io';
 
 sitePage.forEach(async function run(page) {
   const chromeless = new Chromeless()
-    .goto(newUrl + page)
+    .goto(url + page)
 
     console.log(page);
 
-  let dir = './screenshots' + page ;
+  let dir = './screenshots/' + page ;
   if (!fs.existsSync(dir)) {
       fs.mkdirSync(dir);
   }

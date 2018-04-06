@@ -6,7 +6,7 @@ const fs = require('fs');
 let url = 'https://kteich88.github.io';
 
 sitePage.forEach(async function run(page) {
-  const chromeless = new Chromeless()
+  const chromeless = new Chromeless({ launchChrome: false })
     .goto(url + page)
 
     console.log(page);

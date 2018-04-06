@@ -28,9 +28,11 @@
         "enabled" : true,
         "path" : "./screenshots"
       },
-      "desiredCapabilities": {
-        "browserName": "firefox",
-        "marionette": false
+      "firefox": {
+        "desiredCapabilities": {
+          "browserName": "firefox",
+          "marionette": false
+        }
       }
     },
     "chrome": {

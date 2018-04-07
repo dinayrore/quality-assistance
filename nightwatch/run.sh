@@ -1,5 +1,5 @@
 #!/bin/bash
 
-rm reports/*.xml && screenshots/*.png
+rm -rf reports/*.xml && rm -rf screenshots/*.png
 
 nightwatch tests -e default,chrome,safari

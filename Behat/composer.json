@@ -1,0 +1,14 @@
+{
+    "require-dev": {
+    },
+    "config": {
+        "bin-dir": "./bin/"
+    },
+    "require": {
+        "behat/behat": "^3.4",
+        "behat/mink-extension": "^2.3",
+        "behat/mink-goutte-driver": "^1.2",
+        "behat/mink-selenium2-driver": "^1.3",
+        "jcalderonzumba/mink-phantomjs-driver": "^0.3.3"
+    }
+}

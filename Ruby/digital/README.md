@@ -1,6 +1,8 @@
-# Quality Assistance
+# Quality Assistance - Digital QAs
 
-Quality Assistance is your personal assistant to automating QAs! Quality assistance is a series of scripts that can be run based on user input and provided directories. Happy automating! 😃
+Quality Assistance is your personal assistant to automating QAs! This series focuses on digital projects, promoting the user for inputs, and providing feedback based on the variables provided. Several files can be utilized to scrape and compare like values.
+
+Happy automating! 😃
 
 ## Getting Started
 
@@ -41,7 +43,3 @@ Please complete the following procedure to run the program on a live system:
 ## Authors
 
 * **Kristine Teichmann**
-
-## Acknowledgements
-
-* Alyssa Pratt

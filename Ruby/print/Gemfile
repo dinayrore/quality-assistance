@@ -5,7 +5,11 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+# Ruby version
 ruby '2.4.1'
+# PDF parser
+gem 'pdf-reader', '~> 1.4'
+# Debugging
 gem 'pry', '~> 0.10.3'
-gem 'mail', '~> 2.6', '>= 2.6.4'
-gem 'roo', '~> 2.7', '>= 2.7.1'
+# Colorized Output
+gem 'colorize', '~> 0.8.1'

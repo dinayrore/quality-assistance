@@ -2,6 +2,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     coderay (1.1.2)
+    colorize (0.8.1)
     mail (2.7.0)
       mini_mime (>= 0.1.1)
     method_source (0.8.2)
@@ -23,6 +24,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  colorize (~> 0.8.1)
   mail (~> 2.6, >= 2.6.4)
   pry (~> 0.10.3)
   roo (~> 2.7, >= 2.7.1)

@@ -1,0 +1,17 @@
+source 'https://rubygems.org'
+
+git_source(:github) do |repo_name|
+  repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
+  "https://github.com/#{repo_name}.git"
+end
+
+# Ruby version
+ruby '2.4.1'
+# Debugging
+gem 'pry', '~> 0.10.3'
+# Colorized Output
+gem 'colorize', '~> 0.8.1'
+# A really Ruby Mail handler
+gem 'mail', '~> 2.6', '>= 2.6.4'
+# Excel parser
+gem 'roo', '~> 2.7', '>= 2.7.1'

@@ -12,16 +12,6 @@ The instructions below will help you retrieve a copy of the project to run on yo
 
 You may need to install or update the following software.
 
-Find Terminal - to run program
-  1. Open Finder. Finder is available in the Dock.
-  2. Select Applications from the side bar menu.  Then unfold the Utilities folder.
-  3. Double click on Terminal to initialize.
-
-Install Homebrew - to store program files properly
-  1. Open up Terminal.
-  2. Run `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
-  3. Run `brew doctor`
-
 Install rbenv & ruby-build - to install and compile different versions of Ruby code language
   1. Open up Terminal
   2. Run `brew install ruby-build rbenv`

@@ -31,3 +31,8 @@ Please complete the following procedure to run the program on a live system:
 ## Authors
 
 * **Kristine Teichmann**
+
+## Acknowledgements
+
+* Alyssa Pratt
+* Timothy Hsieh

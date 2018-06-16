@@ -1,6 +1,6 @@
-# Quality Assistance
+# Quality Assistance - Behat (BDD for PHP)
 
-Quality Assistance is your personal assistant to automating QAs! Quality assistance is a series of scripts that can be run based on user input and provided directories. Happy automating! 😃
+Behat is an open source Behavior Driven Development framework for PHP. Examples shown here demo features written in Gherkin via Behat/Mink. There are also test specs for integrating TDD into your project utilizing mocha/chai.
 
 ## Getting Started
 

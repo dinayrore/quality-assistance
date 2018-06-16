@@ -1,6 +1,6 @@
-# Quality Assistance - Chromeless
+# Quality Assistance - Chromeless (Full page screen shot script)
 
-Chrome automation made simple. Example shown here is for capturing a full page view.
+Chrome automation made simple. Examples shown here are for capturing a full page view.
 
 ### Prerequisites
 

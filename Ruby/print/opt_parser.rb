@@ -5,6 +5,7 @@ require 'optparse'
 require 'colorize'
 require_relative 'directory'
 require_relative 'source'
+require_relative 'validation'
 
 def parse_options
   ARGV << '-h' if ARGV.empty?
@@ -58,17 +59,17 @@ end
 def parse_pdf_text(pdf_to_txt, txt_record)
   pdf_records = Source.read_records(pdf_to_txt)
   pdf_record = Source.search_records(pdf_records, txt_record)
-  binding.pry
 end
 
 def main
   # record_num prompt
   # merge_variable prompt
+  start = Time.now
   options = parse_options
   txt_record = parse_text(options[:text])
   pdf_to_txt = parse_pdf(options[:file])
   pdf_record = parse_pdf_text(pdf_to_txt, txt_record)
-  # compare_records(txt_record, pdf_record)
+  Validation.compare_records(txt_record, pdf_record, start)
 end
 
 main if __FILE__ == $PROGRAM_NAME

@@ -7,8 +7,8 @@ end
 
 # Ruby version
 ruby '2.4.1'
-# PDF parser
-gem 'pdf-reader', '~> 1.4'
+# Read text and metadata from files
+gem 'yomu', '~> 0.2.4'
 # Debugging
 gem 'pry', '~> 0.10.3'
 # Colorized Output

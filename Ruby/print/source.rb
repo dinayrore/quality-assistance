@@ -9,7 +9,7 @@ class Source
     index = 1
     pdf_record = Hash.new
     until index == txt_record.length
-      recipient_index = pdf_records.index{|record| record.include?(txt_record[index][0])}
+      recipient_index = pdf_records.index{|record| record.include?(txt_record[index][0])} if pdf_records.index{|record| record.include?(txt_record[index][0])}
       address_index = recipient_index + 1
       city_state_zip_index = recipient_index + 2
       recipient = pdf_records[recipient_index] # Current Resident

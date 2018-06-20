@@ -27,6 +27,17 @@ class Directory
     txt_record
   end
 
+  def self.save_suffix_names(txt_records, txt_record)
+    record_num = 0
+    suffix_names = txt_records.select{|record| record.match(/^suffix =/)}
+    suffix_names.each do |suffix|
+      record_num += 1
+      break if record_num == suffix_names.length
+      txt_record[record_num][0] = txt_record[record_num][0] + ',' + ' ' + suffix[/"(.+)\"/].gsub(/\"/, '') if !suffix.include?("<not set>")
+    end
+    txt_record
+  end
+
   def self.save_addresses(txt_records, txt_record)
     record_num = 1
     addresses = txt_records.select{|record| record.match(/^address =/)}

@@ -1,6 +1,6 @@
 # use pry for debugging
 require 'pry'
-require 'pdf-reader'
+require 'yomu'
 require 'optparse'
 require 'colorize'
 require_relative 'directory'
@@ -31,18 +31,14 @@ def parse_options
 end
 
 def parse_pdf(file)
-  PDF::Reader.open(file) do |reader|
-	  txt = reader.pages.map do |page|
+  yomu = Yomu.new(file)
 	  	begin
-	  		page.text
+        File.write file + '.txt', yomu.text
 	  	rescue
 	  		puts 'Failed to convert'
 	  		puts ''
 	  	end
-	  end
-	  File.write file + '.txt', txt.join("\n")
     pdf_to_txt = file + '.txt'
-	end
 end
 
 def parse_text(text)

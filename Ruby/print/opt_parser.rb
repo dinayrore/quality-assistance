@@ -59,8 +59,6 @@ def parse_pdf_text(pdf_to_txt, txt_record)
 end
 
 def main
-  # record_num prompt
-  # merge_variable prompt
   start = Time.now
   options = parse_options
   txt_record = parse_text(options[:text])

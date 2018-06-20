@@ -13,18 +13,14 @@ class Source
       address_index = recipient_index + 1
       city_state_zip_index = recipient_index + 2
       recipient = pdf_records[recipient_index] # Current Resident
-      if pdf_records[address_index].match?(/^(?:[Pp][Oo]\s[Bb][Oo][Xx]|[0-9]+)\s(?:[0-9A-Za-z\.'#]|[^\S\r\n])+/)
+      if pdf_records[address_index].match?(/^(?:[Pp][Oo]\s[Bb][Oo][Xx]|[0-9]{1,}|[0-9]{1,}[A-Za-z])\s(?:[0-9A-Za-z\.'#]|[^\S\r\n])+/)
         address = pdf_records[address_index]
   	  else
 	  	 address = nil
       end
-      if pdf_records[address_index].match?(/([A-Z][a-z]+\s?)+,\s[A-Z]{2}\s\d{5}-?\d{4}?/)
-        city = pdf_records[address_index][/^[^,]*/]
-        state = pdf_records[address_index][/[A-Z]{2}/]
-        zipcode = pdf_records[address_index][/[0-9]{5}(-)[0-9]{4}|[0-9]{5}/]
-      elsif pdf_records[city_state_zip_index].match?(/([A-Z][a-z]+\s?)+,\s[A-Z]{2}\s\d{5}-?\d{4}?/)
+      if pdf_records[city_state_zip_index].match?(/([A-Z]+\s?)+,\s[A-Z]{2}\s\d{5}-?\d{4}?/)
         city = pdf_records[city_state_zip_index][/^[^,]*/]
-        state = pdf_records[city_state_zip_index][/[A-Z]{2}/]
+        state = pdf_records[city_state_zip_index][/,\s[A-Z]{2}/].gsub(/,\s/, '')
         zipcode = pdf_records[city_state_zip_index][/[0-9]{5}(-)[0-9]{4}|[0-9]{5}/]
       else
           city = state = zipcode = nil

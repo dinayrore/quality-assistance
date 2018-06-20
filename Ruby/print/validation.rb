@@ -33,7 +33,7 @@ class Validation
   end
 
   def self.verify_address(txt_record, pdf_record, index, start)
-    if txt_record[index][1] != pdf_record[index][1]
+    if txt_record[index][1].upcase != pdf_record[index][1].upcase
       puts "Record # #{index}".red
       puts "Address #{txt_record[index][1]} does not match #{pdf_record[index][1]}".red
       puts ''

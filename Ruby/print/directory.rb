@@ -9,7 +9,7 @@ class Directory
     record_num = 1
     first_names = txt_records.select{|record| record.match(/^first =/)} # Current
     first_names.each do |first|
-      txt_record[record_num] = [first[/"(.+)\"/].gsub(/\"/, '')]
+      txt_record[record_num] = [first[/"(.+)\"/].gsub(/\"/, '').upcase]
       break if record_num == first_names.length
       record_num += 1
     end
@@ -20,7 +20,7 @@ class Directory
     record_num = 1
     last_names = txt_records.select{|record| record.match(/^last =/)} # Resident
     last_names.each do |last|
-      txt_record[record_num][0] = txt_record[record_num][0] + ' ' + last[/"(.+)\"/].gsub(/\"/, '')
+      txt_record[record_num][0] = txt_record[record_num][0] + ' ' + last[/"(.+)\"/].gsub(/\"/, '').upcase
       break if record_num == last_names.length
       record_num += 1
     end
@@ -33,7 +33,7 @@ class Directory
     suffix_names.each do |suffix|
       record_num += 1
       break if record_num == suffix_names.length
-      txt_record[record_num][0] = txt_record[record_num][0] + ',' + ' ' + suffix[/"(.+)\"/].gsub(/\"/, '') if !suffix.include?("<not set>")
+      txt_record[record_num][0] = txt_record[record_num][0] + ',' + ' ' + suffix[/"(.+)\"/].gsub(/\"/, '').upcase if !suffix.include?("<not set>")
     end
     txt_record
   end
@@ -42,7 +42,7 @@ class Directory
     record_num = 1
     addresses = txt_records.select{|record| record.match(/^address =/)}
     addresses.each do |address|
-      txt_record[record_num][1] = address[/"(.+)\"/].gsub(/\"/, '')
+      txt_record[record_num][1] = address[/"(.+)\"/].gsub(/\"/, '').upcase
       break if record_num == addresses.length
       record_num += 1
     end
@@ -53,7 +53,7 @@ class Directory
     record_num = 1
     cities = txt_records.select{|record| record.match(/^city =/)}
     cities.each do |city|
-      txt_record[record_num][2] = city[/"(.+)\"/].gsub(/\"/, '')
+      txt_record[record_num][2] = city[/"(.+)\"/].gsub(/\"/, '').upcase
       break if record_num == cities.length
       record_num += 1
     end

@@ -33,7 +33,7 @@ end
 def parse_pdf(file)
   yomu = Yomu.new(file)
 	  	begin
-        File.write file + '.txt', yomu.text
+        File.write file + '.txt', yomu.text.upcase
 	  	rescue
 	  		puts 'Failed to convert'
 	  		puts ''

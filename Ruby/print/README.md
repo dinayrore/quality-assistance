@@ -21,6 +21,11 @@ Install ruby 2.4.1
   1. Close and reopen Terminal. `rbenv install 2.4.1`
   2. After quite some time, run: `rbenv global 2.4.1`
 
+Install diff-pdf
+  1. Install pre-requisite XQuartz
+  2. Run `brew cask install xquartz`
+  3. Run `brew install diff-pdf`
+
 ### Deployment
 
 Please complete the following procedure to run the program on a live system:
@@ -28,7 +33,9 @@ Please complete the following procedure to run the program on a live system:
   2. Change your directory to the one that which you would like to save this project. `$ cd folder_name`
   3. Then run the commands `$ git clone https://github.com/kteich88/quality-assistance.git` and `$ cd quality-assistance`
   4. Run `$ bundle install` to install needed gems located in the Gemfile.
-  5. Type `$ ruby opt_parser.rb [options]` to run the program.
+  5. Type `$ sh run sh` to run both text and image comparison programs.
+
+**Note** modifications should be made to the run script to identify the exact sample files you wish to include in your testing.
 
 ## Authors
 

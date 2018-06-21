@@ -13,3 +13,5 @@ gem 'yomu', '~> 0.2.4'
 gem 'pry', '~> 0.10.3'
 # Colorized Output
 gem 'colorize', '~> 0.8.1'
+# PDF generator
+gem 'hexapdf', '~> 0.7.0'

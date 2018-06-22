@@ -7,6 +7,7 @@ Chrome automation made simple. Examples shown here are for capturing a full page
 Node.js - https://nodejs.org/en/
 npm - https://www.npmjs.com/get-npm
 
+`cd chromeless`
 `npm install chromeless`
 
 ### Getting Started

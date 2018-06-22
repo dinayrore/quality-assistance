@@ -26,7 +26,7 @@ Install ruby 2.4.1
 Please complete the following procedure to run the program on a live system:
   1. Open Terminal.
   2. Change your directory to the one that which you would like to save this project. `$ cd folder_name`
-  3. Then run the commands `$ git clone https://github.com/kteich88/quality-assistance.git` and `$ cd quality-assistance`
+  3. Then run the commands `$ git clone https://github.com/kteich88/quality-assistance.git` and `$ cd quality-assistance/Ruby/digital`
   4. Run `$ bundle install` to install needed gems located in the Gemfile.
   5. Type `$ ruby quality_assistance.rb` to run the program.
 

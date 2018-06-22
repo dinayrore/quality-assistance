@@ -1,17 +1,13 @@
 source 'https://rubygems.org'
-
-git_source(:github) do |repo_name|
-  repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
-  "https://github.com/#{repo_name}.git"
-end
-
 # Ruby version
 ruby '2.4.1'
-# Read text and metadata from files
-gem 'yomu', '~> 0.2.4'
+# PDF parser
+gem 'pdf-reader', '~> 1.4'
 # Debugging
 gem 'pry', '~> 0.10.3'
 # Colorized Output
 gem 'colorize', '~> 0.8.1'
+# BETTER PDF parser
+gem 'yomu'
 # PDF generator
 gem 'hexapdf', '~> 0.7.0'

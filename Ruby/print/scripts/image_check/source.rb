@@ -11,6 +11,6 @@ class Source
         pdf.pages.each {|page| proof.pages << proof.import(page)}
       end
     end
-    proof.write("source.pdf", optimize: true)
+    proof.write("./output/source.pdf", optimize: true)
   end
 end

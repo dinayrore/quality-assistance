@@ -59,12 +59,11 @@ def parse_pdf_text(pdf_to_txt, txt_record)
 end
 
 def main
-  start = Time.now
   options = parse_options
   txt_record = parse_text(options[:text])
   pdf_to_txt = parse_pdf(options[:file])
   pdf_record = parse_pdf_text(pdf_to_txt, txt_record)
-  Validation.compare_records(txt_record, pdf_record, start)
+  Validation.compare_records(txt_record, pdf_record)
 end
 
 main if __FILE__ == $PROGRAM_NAME

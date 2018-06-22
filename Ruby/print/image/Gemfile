@@ -1,6 +1,0 @@
-source 'https://rubygems.org'
-ruby '2.4.1'
-# Debugging
-gem 'pry', '~> 0.10.3'
-# PDF generator
-gem 'hexapdf', '~> 0.7.0'

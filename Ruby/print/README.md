@@ -98,8 +98,14 @@ Please complete the following procedure to run the program on a live system:
   4. Run `$ bundle install` to install required gems located in the Gemfile.
   5. Run `$ time sh run.sh` to run a fully automated direct mail QA, or
      Run `time sh run_text.sh` to run a text only comparison, or
-     Run `time sh run_image.sh` to run a image only comparison.
+     Run `time sh run_image.sh` to run an image only comparison.
 
-## Authors
+## Author
 
   * **Kristine Teichmann**
+
+
+### Acknowledgements
+
+  * **Alyssa Pratt - Pratt0923**
+  * **Timothy Hsieh - timothyhsieh27**

@@ -12,7 +12,7 @@ class Source
       address_index = recipient_index + 1
       city_state_zip_index = recipient_index + 2
       recipient = pdf_records[recipient_index] # CURRENT RESIDENT
-      if pdf_records[address_index].match?(/^(?:[Pp][Oo]\s[Bb][Oo][Xx]|[0-9]{1,}|[0-9]{1,}[A-Za-z])\s(?:[0-9A-Za-z\.'#]|[^\S\r\n])+/)
+      if pdf_records[address_index].match?(/^(?:[Pp][Oo]\s[Bb][Oo][Xx]|[0-9]{1,}|[0-9]{1,}[A-Za-z]|[0-9]{1,}-[0-9]{1,})\s(?:[0-9A-Za-z\.'#]|[^\S\r\n])+/)
         address = pdf_records[address_index]
   	  else
 	  	 address = nil

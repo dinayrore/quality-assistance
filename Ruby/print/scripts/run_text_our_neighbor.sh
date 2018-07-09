@@ -5,6 +5,6 @@ mag=$'\e[1;35m'
 end=$'\e[0m'
 
 printf "%s\n" "${yel}Begin text check...${end}"
-ruby ./scripts/text_check/opt_parser.rb -t ./qa_files/*.txt -f ./qa_files/*.pdf
+ruby ./checks/text_check/our_neighbor/opt_parser.rb -t ./qa_files/*.txt -f ./qa_files/*.pdf
 
-rm -rf proofs/*.pdf && rm -rf qa_files/*
+rm -rf qa_files/*.pdf.txt

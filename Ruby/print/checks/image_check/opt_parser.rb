@@ -16,10 +16,6 @@ def parse_options
       options[:text] = text_file_name
     end
 
-    opts.on('-f', '--file file_name') do |file_name|
-      options[:file] = file_name
-    end
-
     opts.on('-p', '--proofs proof_directory') do |proof_directory|
       options[:proofs] = proof_directory
     end

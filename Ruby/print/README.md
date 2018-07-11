@@ -6,13 +6,13 @@ Happy automating! 😃
 
 ## Getting Started
 
-The instructions below will help you retrieve a copy of this project to run on your local machine through the CLI. Please read through all prerequisites and deployment for notes on how to use this project.  The instructions provided are for Macbook users only.
+The instructions below will help you retrieve a copy of this project to run on your local machine through the CLI. Please read through all prerequisites and deployment for notes on how to use this project.  The instructions provided are for Macbook users only. Sorry PC.
 
 ### Requirements
 
 There are a few required documents you will need to include in this projects file tree prior to running the script.
 
-  1. Notepad/.txt extension file - this file may include may characters and descriptors for your QA, however, it MUST include the following attributes in order for the REGEX in this code to pull the appropriate attributes.
+  1. Notepad/.txt extension file - this file may include may characters and descriptors for your QA, however, it MUST include the following attributes in order for the REGEX in this code to pull the appropriate attributes. This file should be placed in the qa_files directory prior to test script execution.
     * address =
     * city =
     * first =
@@ -46,7 +46,7 @@ See example record below:
     image_back = "image_back.pdf"
 ```
 
-  2. PDF - this is the final product with names, addresses, and images that match those set in your text file.
+  2. PDF - this is the final product with names, addresses, and images that match those set in your text file. This file should be placed in the qa_files directory prior to test script execution.
 
   3. Proofs - PDFs of the images used to create the final product PDF. All PDF proofs should be uploaded into the proofs folder prior to test script execution.
 
@@ -94,11 +94,18 @@ Please complete the following procedure to run the program on a live system:
 
   **Note**
     * Please see requirements for full list of documents necessary prior to test execution.
+    * Example documents will be provided in an example folder in the near future.
 
   4. Run `$ bundle install` to install required gems located in the Gemfile.
-  5. Run `$ time sh run.sh` to run a fully automated direct mail QA, or
-     Run `time sh run_text.sh` to run a text only comparison, or
-     Run `time sh run_image.sh` to run an image only comparison.
+  5. Run `$ time sh ./scripts/run.sh` to run a fully automated print QA, or
+     Run `$ time sh ./scripts/run_text.sh` to run a text only comparison, or
+     Run `$ time sh ./scripts/run_image.sh` to run a image only comparison.
+  6. Run `$ time sh ./scripts/run_text_current_resident.sh` or `$ time sh ./scripts/run_text_our_neighbor.sh` for QAs that omit resident names.
+  7. If you know the size of your QA PDF file is large, try running the image and text scripts separately to optimize processing.
+
+  **Note**
+    * You may also need to set the following line in file ./checks/image_check/source.rb from `optimize: true` to `optimize: false` for larger QAs.
+
 
 ## Author
 

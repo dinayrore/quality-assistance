@@ -5,12 +5,12 @@
     city = "Wichita"
     first = "Bernadette"
     last = "Avery"
-    st = “KS”
+    st = "KS"
     suffix = "<not set>"
     zip = "67202"
     addr_line1 = "Bernadette Avery"
     addr_line2 = "23 Henery Street"
-    addr_line3 = “Witchita, KS 67202”
+    addr_line3 = "Witchita, KS 67202"
     image_front = "image_front.pdf"
     image_back = "image_F_back.pdf"
 
@@ -21,7 +21,7 @@
     city = "Saginaw"
     first = "Adrian"
     last = "Hodges"
-    st = “MI”
+    st = "MI"
     suffix = "<not set>"
     zip = "48603"
     addr_line1 = "Adrian Hodges"
@@ -37,7 +37,7 @@
     city = "Lexington"
     first = "Deirdre"
     last = "Baker"
-    st = “KY”
+    st = "KY"
     suffix = "<not set>"
     zip = "40507"
     addr_line1 = "Deirdre Baker"
@@ -53,7 +53,7 @@
     city = "Richardson"
     first = "Felicia"
     last = "Carr"
-    st = “TX”
+    st = "TX"
     suffix = "<not set>"
     zip = "75081"
     addr_line1 = "Felicia Carr"
@@ -69,8 +69,8 @@
     city = "Durango"
     first = "Blake"
     last = "Graham"
-    st = “CO”
-    suffix = “III”
+    st = "CO"
+    suffix = "III"
     zip = "81301"
     addr_line1 = "Blake Graham"
     addr_line2 = "3211 Timberbrook Lane"
@@ -83,12 +83,12 @@
 ----------------------------------------------------------------------
 	 address = "344 Clinton St., Apt. #3B"
     city = "Metropolis"
-    first = “Clark”
-    last = “Kent”
-    st = “IL”
+    first = "Clark"
+    last = "Kent"
+    st = "IL"
     suffix = "<not set>"
     zip = "62960"
-    addr_line1 = “Clark Kent”
+    addr_line1 = "Clark Kent"
     addr_line2 = "344 Clinton St., Apt. #3B"
     addr_line3 = "Metropolis, IL 62960"
     image_front = "image_front.pdf"
@@ -99,12 +99,12 @@
 ----------------------------------------------------------------------
 	 address = "1331 Spring Street"
     city = "Springfield"
-    first = “Irene”
-    last = “Churchill”
-    st = “IL”
+    first = "Irene"
+    last = "Churchill"
+    st = "IL"
     suffix = "<not set>"
     zip = "62701"
-    addr_line1 = “Irene Churchill”
+    addr_line1 = "Irene Churchill"
     addr_line2 = "1331 Spring Street"
     addr_line3 = "Springfield, IL 62701"
     image_front = "image_front.pdf"
@@ -115,12 +115,12 @@
 ----------------------------------------------------------------------
 	 address = "2012 Haven Lane"
     city = "Dewitt"
-    first = “Jan”
-    last = “Dickens”
-    st = “MI”
+    first = "Jan"
+    last = "Dickens"
+    st = "MI"
     suffix = "<not set>"
     zip = "48820"
-    addr_line1 = “Jan Dickens”
+    addr_line1 = "Jan Dickens"
     addr_line2 = "2012 Haven Lane"
     addr_line3 = "Dewitt, MI 48820"
     image_front = "image_front.pdf"
@@ -131,12 +131,12 @@
 ----------------------------------------------------------------------
 	 address = "1007 Mountain Drive"
     city = "Gotham"
-    first = “Bruce”
-    last = “Wayne”
-    st = “NY”
+    first = "Bruce"
+    last = "Wayne"
+    st = "NY"
     suffix = "<not set>"
     zip = "12207"
-    addr_line1 = “Bruce Wayne”
+    addr_line1 = "Bruce Wayne"
     addr_line2 = "1007 Mountain Drive"
     addr_line3 = "Gotham, NY 12207"
     image_front = "image_front.pdf"
@@ -147,12 +147,12 @@
 ----------------------------------------------------------------------
 	 address = "2874 Par Drive"
     city = "Burbank"
-    first = “Kylie”
-    last = “Edmunds”
-    st = “CA”
+    first = "Kylie"
+    last = "Edmunds"
+    st = "CA"
     suffix = "<not set>"
     zip = "91504"
-    addr_line1 = “Kylie Edmunds”
+    addr_line1 = "Kylie Edmunds"
     addr_line2 = "2874 Par Drive"
     addr_line3 = "Burbank, CA 91504"
     image_front = "image_front.pdf"
@@ -163,30 +163,30 @@
 ----------------------------------------------------------------------
 	 address = "4579 Sumner Street"
     city = "Rancho Dominguez"
-    first = “Boris”
-    last = “Rees”
-    st = “CA”
-    suffix = “V”
-    zip = “90220”
-    addr_line1 = “Boris Rees”
+    first = "Boris"
+    last = "Rees"
+    st = "CA"
+    suffix = "V"
+    zip = "90220"
+    addr_line1 = "Boris Rees"
     addr_line2 = "4579 Sumner Street"
-    addr_line3 = "Rancho Dominguez, CA 90220”
+    addr_line3 = "Rancho Dominguez, CA 90220"
     image_front = "image_front.pdf"
     image_back = "image_M_back.pdf"
 
 ----------------------------------------------------------------------
   Record #12
 ----------------------------------------------------------------------
-	 address = "2462 Fire Access Road"
-    city = "Greensboro"
-    first = “Colin”
-    last = “Peake”
-    st = “NC”
-    suffix = “IV”
-    zip = "27410"
-    addr_line1 = “Colin Peake”
-    addr_line2 = "2462 Fire Access Road"
-    addr_line3 = "Greensboro, NC 27410"
+	 address = "PO BOX Rte. 66"
+    city = "Joplin"
+    first = "Jesse"
+    last = "McCree"
+    st = "MO"
+    suffix = "<not set>"
+    zip = "64870"
+    addr_line1 = "Jesse McCree"
+    addr_line2 = "Route 66"
+    addr_line3 = "Joplin, MO 64870"
     image_front = "image_front.pdf"
     image_back = "image_M_back.pdf"
 
@@ -195,12 +195,12 @@
 ----------------------------------------------------------------------
 	 address = "4443 Jones Street"
     city = "Cleburne"
-    first = “Erik”
-    last = “Greene”
-    st = “TX”
+    first = "Erik"
+    last = "Greene"
+    st = "TX"
     suffix = "<not set>"
-    zip = “76031"
-    addr_line1 = “Erik Greene”
+    zip = "76031"
+    addr_line1 = "Erik Greene"
     addr_line2 = "4443 Jones Street"
     addr_line3 = "Cleburne, TX 76031"
     image_front = "image_front.pdf"
@@ -211,12 +211,12 @@
 ----------------------------------------------------------------------
 	 address = "3631 Bond Street"
     city = "Providence"
-    first = “Frank”
-    last = “Gordon”
-    st = “RI”
+    first = "Frank"
+    last = "Gordon"
+    st = "RI"
     suffix = "<not set>"
     zip = "02909"
-    addr_line1 = “Frank Gordon”
+    addr_line1 = "Frank Gordon"
     addr_line2 = "3631 Bond Street"
     addr_line3 = "Providence, RI 02909"
     image_front = "image_front.pdf"
@@ -227,12 +227,12 @@
 ----------------------------------------------------------------------
 	 address = "669 Ferguson Street"
     city = "Brockton"
-    first = “Madeleine”
-    last = “Glover”
-    st = “MA”
+    first = "Madeleine"
+    last = "Glover"
+    st = "MA"
     suffix = "<not set>"
     zip = "02401"
-    addr_line1 = “Madeleine Glover”
+    addr_line1 = "Madeleine Glover"
     addr_line2 = "669 Ferguson Street"
     addr_line3 = "Brockton, MA 02401"
     image_front = "image_front.pdf"
@@ -243,12 +243,12 @@
 ----------------------------------------------------------------------
 	 address = "1934 Red Maple Drive"
     city = "Mira Loma"
-    first = “Penelope”
-    last = “Gray”
-    st = “CA”
+    first = "Penelope"
+    last = "Gray"
+    st = "CA"
     suffix = "<not set>"
     zip = "91752"
-    addr_line1 = “Penelope Gray”
+    addr_line1 = "Penelope Gray"
     addr_line2 = "1934 Red Maple Drive"
     addr_line3 = "Mira Loma, CA 91752"
     image_front = "image_front.pdf"
@@ -259,12 +259,12 @@
 ----------------------------------------------------------------------
 	 address = "849 Romines Mill Road"
     city = "Dallas"
-    first = “Sonia”
-    last = “Hart”
-    st = “TX”
+    first = "Sonia"
+    last = "Hart"
+    st = "TX"
     suffix = "<not set>"
     zip = "75202"
-    addr_line1 = “Sonia Hart”
+    addr_line1 = "Sonia Hart"
     addr_line2 = "849 Romines Mill Road"
     addr_line3 = "Dallas, TX 75202"
     image_front = "image_front.pdf"
@@ -275,12 +275,12 @@
 ----------------------------------------------------------------------
 	 address = "4523 Victoria Court"
     city = "Portland"
-    first = “Victoria”
-    last = “Defanda"
-    st = “ME”
+    first = "Victoria"
+    last = "Defanda"
+    st = "ME"
     suffix = "<not set>"
     zip = "04101"
-    addr_line1 = “Victoria Defanda"
+    addr_line1 = "Victoria Defanda"
     addr_line2 = "4523 Victoria Court"
     addr_line3 = "Portland, ME 04101"
     image_front = "image_front.pdf"
@@ -291,12 +291,12 @@
 ----------------------------------------------------------------------
 	 address = "248 Spring Haven Trail"
     city = "Newark"
-    first = “Wanda”
-    last = “Cosmos”
-    st = “NJ”
+    first = "Wanda"
+    last = "Cosmos"
+    st = "NJ"
     suffix = "<not set>"
     zip = "07102"
-    addr_line1 = “Wanda Cosmos”
+    addr_line1 = "Wanda Cosmos"
     addr_line2 = "248 Spring Haven Trail"
     addr_line3 = "Newark, NJ 07102"
     image_front = "image_front.pdf"
@@ -307,12 +307,12 @@
 ----------------------------------------------------------------------
 	 address = "255 Shinobe Lane"
     city = "Denver"
-    first = “Hanji”
-    last = “Zoe”
-    st = “CO”
-    suffix = “<not set>”
+    first = "Hanji"
+    last = "Zoe"
+    st = "CO"
+    suffix = "<not set>"
     zip = "80202"
-    addr_line1 = “Hanji Zoe”
+    addr_line1 = "Hanji Zoe"
     addr_line2 = "255 Shinobe Lane"
     addr_line3 = "Denver, CO 80202"
     image_front = "image_front.pdf"
@@ -321,15 +321,15 @@
 ----------------------------------------------------------------------
   Record #21
 ----------------------------------------------------------------------
-	 address = "2311 North Los Robles Avenue, Apt. # 4B“
+	 address = "2311 North Los Robles Avenue, Apt. # 4B"
     city = "Pasadena"
-    first = “Leonard”
-    last = “Hofstadter”
-    st = “CA”
+    first = "Leonard"
+    last = "Hofstadter"
+    st = "CA"
     suffix = "<not set>"
     zip = "91101"
-    addr_line1 = “Leonard Hofstadter”
-    addr_line2 = "2311 North Los Robles Avenue, Apt. # 4B“
+    addr_line1 = "Leonard Hofstadter"
+    addr_line2 = "2311 North Los Robles Avenue, Apt. # 4B"
     addr_line3 = "Pasadena, CA 91101"
     image_front = "image_front.pdf"
     image_back = "image_M_back.pdf"
@@ -339,12 +339,12 @@
 ----------------------------------------------------------------------
 	 address = "12345 N Taliesin Drive"
     city = "Scottsdale"
-    first = “Phoenix”
-    last = “Wright”
+    first = "Phoenix"
+    last = "Wright"
     st = "AZ"
     suffix = "<not set>"
     zip = "85259"
-    addr_line1 = “Phoenix Wright”
+    addr_line1 = "Phoenix Wright"
     addr_line2 = "12345 N Taliesin Drive"
     addr_line3 = "Scottsdale, AZ 85259"
     image_front = "image_front.pdf"
@@ -357,7 +357,7 @@
     city = "Framingham"
     first = "Yvonne"
     last = "Ogden"
-    st = “MA”
+    st = "MA"
     suffix = "<not set>"
     zip = "01702"
     addr_line1 = "Yvonne Ogden"
@@ -371,12 +371,12 @@
 ----------------------------------------------------------------------
 	 address = "1487 Tripple Road"
     city = "Philadelphia"
-    first = “Una”
-    last = “King”
-    st = “PA”
+    first = "Una"
+    last = "King"
+    st = "PA"
     suffix = "<not set>"
     zip = "19111"
-    addr_line1 = “Una King”
+    addr_line1 = "Una King"
     addr_line2 = "1487 Tripple Road"
     addr_line3 = "Philadelphia, PA 19111"
     image_front = "image_front.pdf"
@@ -387,12 +387,12 @@
 ----------------------------------------------------------------------
 	 address = "2311 North Los Robles Avenue, Apt. # 4A"
     city = "Pasadena"
-    first = “Sheldon”
-    last = “Cooper”
-    st = “CA”
+    first = "Sheldon"
+    last = "Cooper"
+    st = "CA"
     suffix = "<not set>"
-    zip = “91101”
-    addr_line1 = “Sheldon Cooper”
+    zip = "91101"
+    addr_line1 = "Sheldon Cooper"
     addr_line2 = "2311 North Los Robles Avenue, Apt. # 4A"
     addr_line3 = "Pasadena, CA 91101"
     image_front = "image_front.pdf"

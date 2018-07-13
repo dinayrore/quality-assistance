@@ -7,7 +7,7 @@ class Directory
   def self.save_first_names(txt_records)
     txt_record = Hash.new
     record_num = 1
-    first_names = txt_records.select{|record| record.match(/^first =/)} # CURRENT
+    first_names = txt_records.select{|record| record.match(/^first =/)}
     first_names.each do |first|
       txt_record[record_num] = [first[/"(.+)\"/].gsub(/\"/, '').upcase]
       break if record_num == first_names.length
@@ -18,7 +18,7 @@ class Directory
 
   def self.save_last_names(txt_records, txt_record)
     record_num = 1
-    last_names = txt_records.select{|record| record.match(/^last =/)} # RESIDENT
+    last_names = txt_records.select{|record| record.match(/^last =/)}
     last_names.each do |last|
       txt_record[record_num][0] = txt_record[record_num][0] + ' ' + last[/"(.+)\"/].gsub(/\"/, '').upcase
       break if record_num == last_names.length

@@ -94,7 +94,7 @@ Please complete the following procedure to run the program on a live system:
 
   **Note**
     * Please see requirements for full list of documents necessary prior to test execution.
-    * Example documents will be provided in an example folder in the near future.
+    * Example documents are provided in the examples folder; however, currently, these examples error out on REGEX checks.
 
   4. Run `$ bundle install` to install required gems located in the Gemfile.
   5. Run `$ time sh ./scripts/run.sh` to run a fully automated print QA, or

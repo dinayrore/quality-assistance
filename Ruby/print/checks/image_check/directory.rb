@@ -10,7 +10,7 @@ class Directory
     front_side = img_records.select{|record| record.match(/^image_front =/)}
     front_side.each do |front|
       img_directory[record_num] = ['./proofs/' + front[/[^\\]+front.pdf/].downcase]
-      break if record_num == front_side.length
+      break if record_num > front_side.length
       record_num += 1
     end
     img_directory
@@ -21,7 +21,7 @@ class Directory
     back_side = img_records.select{|record| record.match(/^image_back =/)}
     back_side.each do |back|
       img_directory[record_num][1] = './proofs/' + back[/[^\\]+back.pdf/].downcase
-      break if record_num == back_side.length
+      break if record_num > back_side.length
       record_num += 1
     end
     img_directory

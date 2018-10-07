@@ -11,8 +11,8 @@
     addr_line1 = "Bernadette Avery"
     addr_line2 = "23 Henery Street"
     addr_line3 = "Witchita, KS 67202"
-    image_front = "image_front.pdf"
-    image_back = "image_F_back.pdf"
+    image_front = "\\Image_front.pdf"
+    image_back = "\\Image_F_back.pdf"
 
 ----------------------------------------------------------------------
   Record #2
@@ -27,8 +27,8 @@
     addr_line1 = "Adrian Hodges"
     addr_line2 = "2400 Juniper Drive"
     addr_line3 = "Saginaw, MI 48603"
-    image_front = "image_front.pdf"
-    image_back = "image_M_back.pdf"
+    image_front = "\\Image_front.pdf"
+    image_back = "\\Image_M_back.pdf"
 
 ----------------------------------------------------------------------
   Record #3
@@ -43,8 +43,8 @@
     addr_line1 = "Deirdre Baker"
     addr_line2 = "335 Meadowcrest Lane"
     addr_line3 = "Lexington, KY 40507"
-    image_front = "image_front.pdf"
-    image_back = "image_F_back.pdf"
+    image_front = "\\Image_front.pdf"
+    image_back = "\\Image_F_back.pdf"
 
 ----------------------------------------------------------------------
   Record #4
@@ -59,8 +59,8 @@
     addr_line1 = "Felicia Carr"
     addr_line2 = "3635 Charla Lane"
     addr_line3 = "Richardson, TX 75081"
-    image_front = "image_front.pdf"
-    image_back = "image_F_back.pdf"
+    image_front = "\\Image_front.pdf"
+    image_back = "\\Image_F_back.pdf"
 
 ----------------------------------------------------------------------
   Record #5
@@ -75,8 +75,8 @@
     addr_line1 = "Blake Graham"
     addr_line2 = "3211 Timberbrook Lane"
     addr_line3 = "Durango, CO 81301"
-    image_front = "image_front.pdf"
-    image_back = "image_M_back.pdf"
+    image_front = "\\Image_front.pdf"
+    image_back = "\\Image_M_back.pdf"
 
 ----------------------------------------------------------------------
   Record #6
@@ -91,8 +91,8 @@
     addr_line1 = "Clark Kent"
     addr_line2 = "344 Clinton St., Apt. #3B"
     addr_line3 = "Metropolis, IL 62960"
-    image_front = "image_front.pdf"
-    image_back = "image_M_back.pdf"
+    image_front = "\\Image_front.pdf"
+    image_back = "\\Image_M_back.pdf"
 
 ----------------------------------------------------------------------
   Record #7
@@ -107,8 +107,8 @@
     addr_line1 = "Irene Churchill"
     addr_line2 = "1331 Spring Street"
     addr_line3 = "Springfield, IL 62701"
-    image_front = "image_front.pdf"
-    image_back = "image_F_back.pdf"
+    image_front = "\\Image_front.pdf"
+    image_back = "\\Image_F_back.pdf"
 
 ----------------------------------------------------------------------
   Record #8
@@ -123,8 +123,8 @@
     addr_line1 = "Jan Dickens"
     addr_line2 = "2012 Haven Lane"
     addr_line3 = "Dewitt, MI 48820"
-    image_front = "image_front.pdf"
-    image_back = "image_F_back.pdf"
+    image_front = "\\Image_front.pdf"
+    image_back = "\\Image_F_back.pdf"
 
 ----------------------------------------------------------------------
   Record #9
@@ -139,8 +139,8 @@
     addr_line1 = "Bruce Wayne"
     addr_line2 = "1007 Mountain Drive"
     addr_line3 = "Gotham, NY 12207"
-    image_front = "image_front.pdf"
-    image_back = "image_M_back.pdf"
+    image_front = "\\Image_front.pdf"
+    image_back = "\\Image_M_back.pdf"
 
 ----------------------------------------------------------------------
   Record #10
@@ -155,8 +155,8 @@
     addr_line1 = "Kylie Edmunds"
     addr_line2 = "2874 Par Drive"
     addr_line3 = "Burbank, CA 91504"
-    image_front = "image_front.pdf"
-    image_back = "image_F_back.pdf"
+    image_front = "\\Image_front.pdf"
+    image_back = "\\Image_F_back.pdf"
 
 ----------------------------------------------------------------------
   Record #11
@@ -171,8 +171,8 @@
     addr_line1 = "Boris Rees"
     addr_line2 = "4579 Sumner Street"
     addr_line3 = "Rancho Dominguez, CA 90220"
-    image_front = "image_front.pdf"
-    image_back = "image_M_back.pdf"
+    image_front = "\\Image_front.pdf"
+    image_back = "\\Image_M_back.pdf"
 
 ----------------------------------------------------------------------
   Record #12
@@ -187,8 +187,8 @@
     addr_line1 = "Jesse McCree"
     addr_line2 = "Route 66"
     addr_line3 = "Joplin, MO 64870"
-    image_front = "image_front.pdf"
-    image_back = "image_M_back.pdf"
+    image_front = "\\Image_front.pdf"
+    image_back = "\\Image_M_back.pdf"
 
 ----------------------------------------------------------------------
   Record #13
@@ -203,8 +203,8 @@
     addr_line1 = "Erik Greene"
     addr_line2 = "4443 Jones Street"
     addr_line3 = "Cleburne, TX 76031"
-    image_front = "image_front.pdf"
-    image_back = "image_M_back.pdf"
+    image_front = "\\Image_front.pdf"
+    image_back = "\\Image_M_back.pdf"
 
 ----------------------------------------------------------------------
   Record #14
@@ -219,8 +219,8 @@
     addr_line1 = "Frank Gordon"
     addr_line2 = "3631 Bond Street"
     addr_line3 = "Providence, RI 02909"
-    image_front = "image_front.pdf"
-    image_back = "image_M_back.pdf"
+    image_front = "\\Image_front.pdf"
+    image_back = "\\Image_M_back.pdf"
 
 ----------------------------------------------------------------------
   Record #15
@@ -235,8 +235,8 @@
     addr_line1 = "Madeleine Glover"
     addr_line2 = "669 Ferguson Street"
     addr_line3 = "Brockton, MA 02401"
-    image_front = "image_front.pdf"
-    image_back = "image_F_back.pdf"
+    image_front = "\\Image_front.pdf"
+    image_back = "\\Image_F_back.pdf"
 
 ----------------------------------------------------------------------
   Record #16
@@ -251,8 +251,8 @@
     addr_line1 = "Penelope Gray"
     addr_line2 = "1934 Red Maple Drive"
     addr_line3 = "Mira Loma, CA 91752"
-    image_front = "image_front.pdf"
-    image_back = "image_F_back.pdf"
+    image_front = "\\Image_front.pdf"
+    image_back = "\\Image_F_back.pdf"
 
 ----------------------------------------------------------------------
   Record #17
@@ -267,8 +267,8 @@
     addr_line1 = "Sonia Hart"
     addr_line2 = "849 Romines Mill Road"
     addr_line3 = "Dallas, TX 75202"
-    image_front = "image_front.pdf"
-    image_back = "image_F_back.pdf"
+    image_front = "\\Image_front.pdf"
+    image_back = "\\Image_F_back.pdf"
 
 ----------------------------------------------------------------------
   Record #18
@@ -283,8 +283,8 @@
     addr_line1 = "Victoria Defanda"
     addr_line2 = "4523 Victoria Court"
     addr_line3 = "Portland, ME 04101"
-    image_front = "image_front.pdf"
-    image_back = "image_F_back.pdf"
+    image_front = "\\Image_front.pdf"
+    image_back = "\\Image_F_back.pdf"
 
 ----------------------------------------------------------------------
   Record #19
@@ -299,8 +299,8 @@
     addr_line1 = "Wanda Cosmos"
     addr_line2 = "248 Spring Haven Trail"
     addr_line3 = "Newark, NJ 07102"
-    image_front = "image_front.pdf"
-    image_back = "image_F_back.pdf"
+    image_front = "\\Image_front.pdf"
+    image_back = "\\Image_F_back.pdf"
 
 ----------------------------------------------------------------------
   Record #20
@@ -315,8 +315,8 @@
     addr_line1 = "Hanji Zoe"
     addr_line2 = "255 Shinobe Lane"
     addr_line3 = "Denver, CO 80202"
-    image_front = "image_front.pdf"
-    image_back = "image_F_back.pdf"
+    image_front = "\\Image_front.pdf"
+    image_back = "\\Image_F_back.pdf"
 
 ----------------------------------------------------------------------
   Record #21
@@ -331,8 +331,8 @@
     addr_line1 = "Leonard Hofstadter"
     addr_line2 = "2311 North Los Robles Avenue, Apt. # 4B"
     addr_line3 = "Pasadena, CA 91101"
-    image_front = "image_front.pdf"
-    image_back = "image_M_back.pdf"
+    image_front = "\\Image_front.pdf"
+    image_back = "\\Image_M_back.pdf"
 
 ----------------------------------------------------------------------
   Record #22
@@ -347,8 +347,8 @@
     addr_line1 = "Phoenix Wright"
     addr_line2 = "12345 N Taliesin Drive"
     addr_line3 = "Scottsdale, AZ 85259"
-    image_front = "image_front.pdf"
-    image_back = "image_M_back.pdf"
+    image_front = "\\Image_front.pdf"
+    image_back = "\\Image_M_back.pdf"
 
 ----------------------------------------------------------------------
   Record #23
@@ -363,8 +363,8 @@
     addr_line1 = "Yvonne Ogden"
     addr_line2 = "3949 Stadium Drive"
     addr_line3 = "Framingham, MA 01702"
-    image_front = "image_front.pdf"
-    image_back = "image_F_back.pdf"
+    image_front = "\\Image_front.pdf"
+    image_back = "\\Image_F_back.pdf"
 
 ----------------------------------------------------------------------
   Record #24
@@ -379,8 +379,8 @@
     addr_line1 = "Una King"
     addr_line2 = "1487 Tripple Road"
     addr_line3 = "Philadelphia, PA 19111"
-    image_front = "image_front.pdf"
-    image_back = "image_F_back.pdf"
+    image_front = "\\Image_front.pdf"
+    image_back = "\\Image_F_back.pdf"
 
 ----------------------------------------------------------------------
   Record #25
@@ -395,8 +395,8 @@
     addr_line1 = "Sheldon Cooper"
     addr_line2 = "2311 North Los Robles Avenue, Apt. # 4A"
     addr_line3 = "Pasadena, CA 91101"
-    image_front = "image_front.pdf"
-    image_back = "image_M_back.pdf"
+    image_front = "\\Image_front.pdf"
+    image_back = "\\Image_M_back.pdf"
 
 ----------------------------------------------------------------------
  				End

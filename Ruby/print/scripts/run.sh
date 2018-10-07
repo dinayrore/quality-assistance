@@ -8,7 +8,7 @@ end=$'\e[0m'
 printf "%s\n" "${yel}Begin text check...${end}"
 ruby ./checks/text_check/opt_parser.rb -t ./qa_files/*.txt -f ./qa_files/*.pdf
 
-rm -rf ..qa_files/*.pdf.txt
+rm -rf qa_files/*.pdf.txt
 
 printf "%s\n" "${yel}Begin image check...this may take a moment...${end}"
 printf "%s\n" "Pulling images from text record file to create proof PDF..."
@@ -24,6 +24,6 @@ rm -rf proofs/*.pdf && rm -rf qa_files/*
 if [ -e ./output/diff.pdf ]
 then
 printf "%s\n" "Please review output/diff.pdf"
-printf "%s\n" "Differences are highlighted in ${cyn}bright blue${end} and ${red}red${end}."
+printf "%s\n" "Differences are highlighted in ${cyn}bright blue${end} and ${red} red${end}."
 open ./output/diff.pdf
 fi
